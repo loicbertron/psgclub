@@ -1,0 +1,27 @@
+main:
+  - name: Accueil
+    url: ""
+    weight: 1
+  - name: Événements
+    url: "#event"
+    weight: 2
+  - name: Association
+    url: "#about"
+    weight: 4
+  - name: Boutique
+    url: "#product"
+    weight: 5
+sitemap:
+  - name: Accueil
+    url: ""
+    weight: 1
+  - name: S'inscrire
+    url: "contact"
+    weight: 2
+  - name: Événements
+    url: "event"
+    weight: 4
+  - name: Boutique
+    url: "product"
+    weight: 4
+

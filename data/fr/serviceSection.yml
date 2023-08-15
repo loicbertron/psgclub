@@ -1,0 +1,42 @@
+enable: true
+topTitle: Membres
+title: >
+  ## Pourquoi rejoindre le PSG Club Montréal
+
+  En devenant membre du PSG Club Montréal, tu bénéficie d'expériences sur mesure pour les supporters du PSG à Montréal, et bénéfécie d'avantages exceptionels.
+service:
+  - content: >
+      #### Communauté
+
+      Rejoins une communauté de fans à Montréal partageant la même passion que toi.  <br>
+
+      Que ce soit pendant nos événements, ou le reste du temps sur notre Discord, discute de tout ce qui touche au PSG et d'être un fan parisien à Montréal.
+    image: images/service/paris-saint-germain.png
+  - content: >
+      #### Matchs
+
+      Suis tous les matchs du PSG avec le PSG Club Montréal, supporte le PSG avec l'ambiance de ton club de supporters, pour vivre pleinement toutes les émotions du match.
+    image: images/service/football-field.png
+  - content: >
+      #### Expériences
+
+      Vis des expériences uniques au sein du PSG Club Montréal.   <br>
+
+      Participe à des soirées spéciales uniquement ouvertes au membres, ou des déplacements pour suivre le PSG en Europe et en Amérique du Nord.
+    image: images/service/vip-card.png
+  - content: >
+      #### Jeux concours
+
+      En étant membre du PSG Club Montréal, tu participes à des concours pour gagner des lots PSG, tels que des maillots, des écharpes ou plein d'autres lots.
+    image: images/service/gift.png
+  - content: >
+      #### Avantages
+
+      En rejoignant le PSG Club Montréal, tu obtiens des avantages tel qu'une billeterie prioritiaire pour les matchs du PSG au Parc des Princes ou en déplacement, ainsi que des rabais sur les produits officiels du club
+    image: images/service/advantages.png
+  - content: >
+      #### Soccer
+
+      Rejoins les joueurs du PSG Club Montréal, et pratique ta passion tout en portant les couleurs du clubs, l'historique BBRBB du maillot Hechter.
+    image: images/service/psg-jersey.png
+_template: service_template

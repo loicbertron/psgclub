@@ -1,0 +1,59 @@
+enable: true
+topTitle: Events
+title: >
+  ## Événements à venir
+
+  Retrouvez ici tous les événements à venir du PSG Club Montréal
+events:
+  - type: match
+    homeLogo: /images/teams/13.png
+    awayLogo: /images/teams/1.png
+    title: PSG - OM
+    date: 2023-08-01T15:00:00-04:00
+    location: >
+      Union Française de Montréal  <br>
+
+      429 Avenue Viger E,  <br>
+
+      Montréal, QC H2L 2N9
+    link: https://www.facebook.com/events/1031116564562056
+
+  - type: match
+    homeLogo: /images/teams/13.png
+    awayLogo: /images/teams/7.png
+    title: PSG - Lorient
+    date: 2023-08-12T15:00:00-04:00
+    location: >
+      Union Française de Montréal  <br>
+
+      429 Avenue Viger E,  <br>
+
+      Montréal, QC H2L 2N9
+    link: https://www.facebook.com/events/1031116564562056
+
+  - type: match
+    homeLogo: /images/teams/16.png
+    awayLogo: /images/teams/13.png
+    title: Toulouse - PSG
+    date: 2023-08-19T15:00:00-04:00
+    location: >
+      Union Française de Montréal  <br>
+
+      429 Avenue Viger E,  <br>
+
+      Montréal, QC H2L 2N9
+    link: https://www.facebook.com/events/1031116564562056
+
+  - type: social
+    title: 5 à 7
+    description: Venez vous joindre au PSG Club Montreal pour faire la fête
+    date: 2023-09-19T15:00:00-04:00
+    location: >
+      Union Française de Montréal  <br>
+
+      429 Avenue Viger E,  <br>
+
+      Montréal, QC H2L 2N9
+    link: https://www.facebook.com/events/1031116564562056
+
+_template: event_template

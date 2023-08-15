@@ -1,0 +1,23 @@
+enable: true
+topTitle: Association
+title: >
+  ## Notre histoire
+
+  Hear our story of struggles of how we became the largest Iranian exporter of
+  premium dried fruits and nuts
+content: >
+  ### Où tu es, nous sommes là
+
+  Le PSG Club Montréal a été fondé en 2009 afin de permettre aux supporters du PSG
+  à Montréal de se retrouver, et de vivre leur passion même à 6000km de Paris.
+
+
+  Depuis sa création, l'association a permis à ses membres de se retrouver à chaque match
+  du PSG pour vibrer au rythme des exploits des rouges et bleus, de porter fièrement les
+  couleurs de l'association dans les ligues de soccer du Québec, et d'organiser des événements
+  uniques tels que des déplacements (Paris, New York, Toronto, Colombus, Detroit ...) pour
+  encourager le PSG au Parc des Princes et hors de ses bases.
+button1Name: Rejoins-nous
+button1Target: contact
+image: images/about/10.png
+_template: about_template

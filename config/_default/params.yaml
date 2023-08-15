@@ -1,0 +1,94 @@
+titleSeparator: '-'
+titleAddition: Club de Supporter du PSG à Montréal
+description: >-
+  Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
+images:
+  - favicon.ico
+ogLocale: fr
+titleHome: PSG Club Montreal
+twitterSite: '@psgclubmontreal'
+twitterCreator: '@psgclubmontreal'
+schemaType: Organization
+schemaName: Hyas
+schemaAuthor: Henk Verlinde
+schemaAuthorTwitter: 'https://twitter.com/psgclubmontreal'
+schemaAuthorLinkedIn: 'https://www.linkedin.com/company/psgclubmontreal/'
+schemaAuthorGitHub: 'https://github.com/h-enk'
+schemaLocale: fr
+schemaLogo: logo-hyas.png
+schemaLogoWidth: 512
+schemaLogoHeight: 512
+schemaImage: hyas.png
+schemaImageWidth: 1280
+schemaImageHeight: 640
+schemaTwitter: 'https://twitter.com/psgclubmontreal'
+schemaLinkedIn: ''
+schemaGitHub: 'https://github.com/h-enk/hyas'
+themeColor: '#3ac58d'
+landscapePhotoWidths:
+  - 900
+  - 800
+  - 700
+  - 600
+  - 500
+portraitPhotoWidths:
+  - 800
+  - 700
+  - 600
+  - 500
+lqipWidth: 20x
+smallLimit: '320'
+imageResponsive: true
+imageConvertTo: webp
+imageImageSizes:
+  - '480'
+  - '720'
+  - '1080'
+  - '1280'
+  - '1600'
+  - '2048'
+singleSize: false
+imageAddClass: img-fluid lazyload blur-up
+defaultImage: default-image.png
+fillImage: 1280x720 Center
+alert: false
+alertDismissable: true
+alertText: >-
+  Ici c'est Paris <a class="alert-link"
+  href="https://www.psgclub.com" target="_blank" rel="noopener">Inscris toi→</a>
+blogPageURL: blog
+contactLink: contact
+copyright: © PSG Club Montreal 2023
+footerLogo: images/site-navigation/logo.png
+footerContact:
+  topTitle: Rejoins-nous
+  title: Vis ta passion au sein de la communauté PSG de Montréal
+  button: S'inscrire
+fabformURL: 'https://fabform.io/f/JpTXRUa'
+googleAnalytics: YOUR GOOGLE ANALYTICS CODE
+logo: images/site-navigation/logo.png
+address:
+  address: >
+    429 Avenue Viger E,  <br>
+
+    Montréal, QC H2L 2N9
+  email: info@psgclubmontreal.com
+map:
+  APIkey: YOUR GOOGLE MAP API
+  latitude: '23.7783741'
+  longitude: '90.3746808'
+  pinImage: images/pin.png
+social:
+  - icon: fa-instagram
+    url: 'https://instagram.com/psg_clubmontreal'
+    weight: 1
+  - icon: fa-facebook-official
+    url: 'https://facebook.com/psgclubmontreal'
+    weight: 2
+  - icon: fa-linkedin-square
+    url: 'https://www.linkedin.com/company/psgclubmontreal'
+    weight: 3
+  - icon: fa-twitter-square
+    url: 'https://twitter.com/psgclubmontreal'
+    weight: 4
+_template: parameters_template

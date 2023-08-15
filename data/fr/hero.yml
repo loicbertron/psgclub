@@ -1,0 +1,12 @@
+enable: true
+topTitle: FRANCAIS
+content: >
+  # Ici Aussi C'est Paris
+
+  Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
+buttonName: Inscris toi
+buttonURL: contact
+image: images/hero/nuts.jpg
+videoThumb: images/hero/pistachios.jpg
+videoURL: 'https://www.youtube.com/watch?v=pUsMKEA__5Y'
+_template: hero_template

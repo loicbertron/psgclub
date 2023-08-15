@@ -1,0 +1,6 @@
+enable: true
+topTitle: Nos produits
+title: |
+  ## Porte tes couleurs
+  Procures toi des produits
+_template: product_section_template
