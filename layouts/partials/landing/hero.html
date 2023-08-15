@@ -29,7 +29,7 @@
               </div>
               <div class="mb-5">
                 <span class="top-title pre-line">{{ .topTitle }}</span>
-                ICI : {{ .Site.BaseURL }}
+                {{ .Site.BaseURL }}
                 {{ .content | markdownify }}
               </div>
               <a type="button" class="btn btn-lg btn-primary btn-zoom" href="{{ .buttonURL }}"
@@ -40,7 +40,7 @@
           <div class="col-lg-6">
             <div class="hero_figure">
               <div class="figure-svg">
-                <img src="/images/hero/figure-svg.svg" alt="figure-svg" />
+                <img src={{ "/images/hero/figure-svg.svg" | absURL }} alt="figure-svg" />
               </div>
               {{ $asset := resources.Get .image }}
               {{ $img := $asset.Fit "1500x1000 webp" }}
