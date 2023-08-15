@@ -18,6 +18,6 @@ content: >
   uniques tels que des déplacements (Paris, New York, Toronto, Colombus, Detroit ...) pour
   encourager le PSG au Parc des Princes et hors de ses bases.
 button1Name: Rejoins-nous
-button1Target: contact
+button1Target: fr/contact
 image: images/about/10.png
 _template: about_template
