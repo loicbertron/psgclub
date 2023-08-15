@@ -8,7 +8,7 @@
     <a href="{{ .Site.BaseURL }}" class="navbar-brand">
       {{ $asset := resources.Get .Site.Params.logo }}
       {{ $img := $asset.Fit "400x400 webp" }}
-      <img style="width: 100px; height: 100px; object-fit: contain" src="{{ $img.RelPermalink }}" alt="site-logo" />
+      <img style="width: 50px; height: 50px; object-fit: contain" src="{{ $img.RelPermalink }}" alt="site-logo" />
     </a>
     <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
