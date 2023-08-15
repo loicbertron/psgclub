@@ -53,7 +53,7 @@
                 </svg>
               </div>
               <div class="icon">
-                <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" />
+                <img src="{{ "images/contact/location.svg" | safeURL | relURL }}" alt="location" />
               </div>
             </div>
             <h4>Office Address</h4>
@@ -74,7 +74,7 @@
                 </svg>
               </div>
               <div class="icon">
-                <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />
+                <img src="{{ "images/contact/phone.svg" | safeURL | relURL }}" alt="phone" />
               </div>
             </div>
             <h4>Phone & Email</h4>
@@ -96,7 +96,7 @@
                 </svg>
               </div>
               <div class="icon">
-                <img src="{{ "images/contact/time.svg" | absURL }}" alt="time" />
+                <img src="{{ "images/contact/time.svg" | safeURL | relURL }}" alt="time" />
               </div>
             </div>
             <h4>Working Hours</h4>
@@ -188,7 +188,7 @@
             id="map"
             data-lat="{{ $map.latitude }}"
             data-long="{{ $map.longitude }}"
-            data-pin="{{ $map.pinImage | absURL }}"></div>
+            data-pin="{{ $map.pinImage | safeURL | relURL }}"></div>
         </div>
       </div>
     </div>
