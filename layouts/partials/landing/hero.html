@@ -2,10 +2,10 @@
   {{ if .enable }}
     <section class="hero" id="home">
       <div class="hero_background-svg">
-        <img src={{ "/images/hero/logo_psg_club_montreal_flat_blackwhite.svg" | safeURL | relURL }} alt="" style="opacity: 0.1;"/>
+        <img src={{ "images/hero/logo_psg_club_montreal_flat_blackwhite.svg" | safeURL | relURL }} alt="" style="opacity: 0.1;"/>
       </div>
       <div class="hero_footer-svg">
-        <img src={{ "/images/hero/figure-svg.svg" | safeURL | relURL }} alt="" />
+        <img src={{ "images/hero/figure-svg.svg" | safeURL | relURL }} alt="" />
       </div>
       <div class="container">
         <div class="row align-items-center">
@@ -28,7 +28,7 @@
                 </svg>
               </div>
               <div class="mb-5">
-                <span class="top-title pre-line">{{ .Site.BaseURL }}</span>
+                <span class="top-title pre-line">{{ .topTitle }}</span>
 
                 {{ .content | markdownify }}
               </div>
@@ -40,7 +40,7 @@
           <div class="col-lg-6">
             <div class="hero_figure">
               <div class="figure-svg">
-                <img src={{ "/images/hero/figure-svg.svg" | safeURL | relURL }} alt="figure-svg" />
+                <img src={{ "images/hero/figure-svg.svg" | safeURL | relURL }} alt="figure-svg" />
               </div>
               {{ $asset := resources.Get .image }}
               {{ $img := $asset.Fit "1500x1000 webp" }}
