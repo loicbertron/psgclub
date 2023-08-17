@@ -2,9 +2,6 @@ enable: true
 topTitle: Association
 title: >
   ## Notre histoire
-
-  Hear our story of struggles of how we became the largest Iranian exporter of
-  premium dried fruits and nuts
 content: >
   ### Où tu es, nous sommes là
 
@@ -18,6 +15,6 @@ content: >
   uniques tels que des déplacements (Paris, New York, Toronto, Colombus, Detroit ...) pour
   encourager le PSG au Parc des Princes et hors de ses bases.
 button1Name: Rejoins-nous
-button1Target: fr/contact
+button1Target: fr/join
 image: images/about/10.png
 _template: about_template

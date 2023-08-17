@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = "Thanks! Contact form is submitted successfully.";
+    status.innerHTML = "Merci - Veuillez vérifier vos courriels pour terminer l'inscription <br/> Thanks! Please verify your emails to complete the registration.";
   }
 
   function error() {

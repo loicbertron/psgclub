@@ -1,11 +1,11 @@
 enable: true
-topTitle: ENGLISH
+topTitle: We are the PSG Club Montreal
 content: >
-  # Ici Aussi C'est Paris
+  # Here as well, this is Paris
 
-  Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
+  Supporting PSG in Montreal, sharing our passion and cheering together!
 buttonName: Inscris toi
-buttonURL: contact
+buttonURL: en/join
 image: images/hero/nuts.jpg
 videoThumb: images/hero/pistachios.jpg
 videoURL: 'https://www.youtube.com/watch?v=pUsMKEA__5Y'

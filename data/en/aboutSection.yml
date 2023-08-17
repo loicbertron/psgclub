@@ -1,23 +1,20 @@
 enable: true
 topTitle: Association
 title: >
-  ## Notre histoire
-
-  Hear our story of struggles of how we became the largest Iranian exporter of
-  premium dried fruits and nuts
+  ## Our story
 content: >
-  ### Où tu es, nous sommes là
+  ### Where you are, we are there
 
-  Le PSG Club Montréal a été fondé en 2009 afin de permettre aux supporters du PSG
-  à Montréal de se retrouver, et de vivre leur passion même à 6000km de Paris.
+  The PSG Club Montreal was founded in 2009 in order to allow PSG fans
+  in Montreal to find each other, and to live their passion even 6000km from Paris.
 
 
-  Depuis sa création, l'association a permis à ses membres de se retrouver à chaque match
-  du PSG pour vibrer au rythme des exploits des rouges et bleus, de porter fièrement les
-  couleurs de l'association dans les ligues de soccer du Québec, et d'organiser des événements
-  uniques tels que des déplacements (Paris, New York, Toronto, Colombus, Detroit ...) pour
-  encourager le PSG au Parc des Princes et hors de ses bases.
-button1Name: Rejoins-nous
-button1Target: contact
+  Since its creation, the association has allowed its members to meet at each match
+  of PSG to vibrate to the rhythm of the exploits of the reds and blues, to proudly wear the
+  colors of the association in the soccer leagues of Quebec, and to organize events
+  unique such as trips (Paris, New York, Toronto, Columbus, Detroit ...) to cheer for Paris
+  at the Parc des Princes and outside its bases.
+button1Name: Join us
+button1Target: fr/join
 image: images/about/10.png
 _template: about_template

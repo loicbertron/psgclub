@@ -16,7 +16,7 @@ sitemap:
     url: ""
     weight: 1
   - name: S'inscrire
-    url: "contact"
+    url: "join"
     weight: 2
   - name: Événements
     url: "event"

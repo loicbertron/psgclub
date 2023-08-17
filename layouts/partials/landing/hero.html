@@ -31,10 +31,20 @@
                 <span class="top-title pre-line">{{ .topTitle }}</span>
 
                 {{ .content | markdownify }}
+
+                <div style="font-size: xx-large">
+                {{ range $key, $value := $.Site.Params.social }}
+
+                <li class="d-inline-block mx-1">
+                  <a class="text-dark" target="_blank" href="{{ $value.url }}"><i class="{{ $value.icon }}"></i></a>
+                </li>
+                {{ end }}
+                </div>
               </div>
               <a type="button" class="btn btn-lg btn-primary btn-zoom" href="{{ .buttonURL }}"
                 >{{ .buttonName }}</a
               >
+
             </div>
           </div>
           <div class="col-lg-6">

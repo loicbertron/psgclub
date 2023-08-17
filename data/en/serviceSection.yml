@@ -1,45 +1,41 @@
 enable: true
-topTitle: Product Categories
+topTitle: Members
 title: >
-  ## Diversity in Products
+  ## Why join PSG Club Montreal
 
-  From tasty dried fruits to nutritious nuts and saffron are provided by
-  Helmani.
+  Becoming a member of the PSG Club Montreal, you benefit from tailor-made experiences for PSG supporters in Montreal, and enjoy exceptional advantages.
 service:
   - content: >
-      #### Pistachios 
+      #### Community
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/pistachio.png
+      Join a community of fans in Montreal sharing the same passion as you. <br>
+
+      Whether during our events, or the rest of the time on our Discord, discuss all things PSG and being a Parisian fan in Montreal.
+    image: images/service/paris-saint-germain.png
   - content: >
-      #### Raisins
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/raisins.png
+      #### Matches
+      Follow all PSG matches with PSG Club Montreal, support PSG with the atmosphere of your supporters club, to fully experience all the emotions of the match.
+    image: images/service/football-field.png
   - content: >
-      #### Dates 
+      #### Experiences
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/dates.png
+      Live unique experiences within the PSG Club Montreal. <br>
+
+      Participate in special evenings only open to members, or trips to follow PSG in Europe and North America.
+    image: images/service/vip-card.png
   - content: >
-      #### Walnuts
+      #### Prizes
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/walnut.png
+      By being a member of the PSG Club Montreal, you participate in contests to win PSG prizes, such as jerseys, scarves or many other prizes.
+    image: images/service/gift.png
   - content: >
-      #### Saffron
+      #### Advantages
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/saffron.png
+      By joining the PSG Club Montreal, you get benefits such as priority ticketing for PSG games at the Parc des Princes or on the go, as well as discounts on official club products.
+    image: images/service/advantages.png
   - content: >
-      #### Barberries
+      #### Soccer
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/barberry.png
+      Join the players of the PSG Club Montreal, and practice your passion while wearing the colors of the club, the historic Blue-White-Red-White-Blue of the Hechter jersey.
+    image: images/service/psg-jersey.png
 _template: service_template

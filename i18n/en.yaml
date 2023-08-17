@@ -1,2 +1,16 @@
 - id: hello
   translation: "We are PSG Club Montréal!"
+- id: register
+  translation: "Join"
+- id : registration-form
+  translation: "Registration form"
+- id : given-name
+  translation: "First name"
+- id : last-name
+  translation: "Last name"
+- id : email
+  translation: "Email"
+- id : agreement
+  translation: "I agree that my submitted data is being collected and stored."
+- id : join
+  translation : "Join"

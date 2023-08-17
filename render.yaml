@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: corporio # Your website name
+    name: PSG Club Montreal # Your website name
     env: static
     # buildCommand: pnpm install; pnpm add popper.js@1.16.1; pnpm tina:build # Build with tina integration
     buildCommand: pnpm install; pnpm add popper.js@1.16.1; pnpm build

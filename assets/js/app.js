@@ -1,5 +1,3 @@
-// In the Name of God, the Originator the Creative
-
 // app.js for concatenation of smaller libraryies
 // to reduce http requests of small files
 

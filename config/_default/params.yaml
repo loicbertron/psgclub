@@ -1,7 +1,4 @@
 titleSeparator: '-'
-titleAddition: Club de Supporter du PSG à Montréal
-description: >-
-  Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
 images:
   - favicon.ico
 ogLocale: fr
@@ -9,21 +6,19 @@ titleHome: PSG Club Montreal
 twitterSite: '@psgclubmontreal'
 twitterCreator: '@psgclubmontreal'
 schemaType: Organization
-schemaName: Hyas
-schemaAuthor: Henk Verlinde
+schemaName: PSG Club Montreal
+schemaAuthor: PSG Club Montreal
 schemaAuthorTwitter: 'https://twitter.com/psgclubmontreal'
 schemaAuthorLinkedIn: 'https://www.linkedin.com/company/psgclubmontreal/'
-schemaAuthorGitHub: 'https://github.com/h-enk'
 schemaLocale: fr
-schemaLogo: logo-hyas.png
-schemaLogoWidth: 512
-schemaLogoHeight: 512
-schemaImage: hyas.png
-schemaImageWidth: 1280
-schemaImageHeight: 640
+schemaLogo: images/logo.png
+schemaLogoWidth: 1000
+schemaLogoHeight: 1000
+schemaImage: images/logo.png
+schemaImageWidth: 1000
+schemaImageHeight: 1000
 schemaTwitter: 'https://twitter.com/psgclubmontreal'
-schemaLinkedIn: ''
-schemaGitHub: 'https://github.com/h-enk/hyas'
+schemaLinkedIn: 'https://www.linkedin.com/company/psgclubmontreal/'
 themeColor: '#3ac58d'
 landscapePhotoWidths:
   - 900
@@ -56,15 +51,8 @@ alertDismissable: true
 alertText: >-
   Ici c'est Paris <a class="alert-link"
   href="https://www.psgclub.com" target="_blank" rel="noopener">Inscris toi→</a>
-blogPageURL: blog
-contactLink: contact
 copyright: © PSG Club Montreal 2023
 footerLogo: images/site-navigation/logo.png
-footerContact:
-  topTitle: Rejoins-nous
-  title: Vis ta passion au sein de la communauté PSG de Montréal
-  button: S'inscrire
-fabformURL: 'https://fabform.io/f/JpTXRUa'
 googleAnalytics: YOUR GOOGLE ANALYTICS CODE
 logo: images/site-navigation/logo.png
 address:
@@ -73,22 +61,20 @@ address:
 
     Montréal, QC H2L 2N9
   email: info@psgclubmontreal.com
-map:
-  APIkey: YOUR GOOGLE MAP API
-  latitude: '23.7783741'
-  longitude: '90.3746808'
-  pinImage: images/pin.png
 social:
-  - icon: fa-instagram
+  - icon: fa-brands fa-discord
     url: 'https://instagram.com/psg_clubmontreal'
     weight: 1
-  - icon: fa-facebook-official
-    url: 'https://facebook.com/psgclubmontreal'
+  - icon: fa-brands fa-instagram
+    url: 'https://instagram.com/psg_clubmontreal'
     weight: 2
-  - icon: fa-linkedin-square
-    url: 'https://www.linkedin.com/company/psgclubmontreal'
+  - icon: fa-brands fa-square-facebook
+    url: 'https://facebook.com/psgclubmontreal'
     weight: 3
-  - icon: fa-twitter-square
-    url: 'https://twitter.com/psgclubmontreal'
+  - icon: fa-brands fa-linkedin
+    url: 'https://www.linkedin.com/company/psgclubmontreal'
     weight: 4
+  - icon: fa-brands fa-twitter-square
+    url: 'https://twitter.com/psgclubmontreal'
+    weight: 5
 _template: parameters_template

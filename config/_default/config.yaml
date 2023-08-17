@@ -7,17 +7,43 @@ languages:
     languageCode: fr-CA
     languageDirection: ltr
     languageName: French
+    contentDir: content/fr
     params:
       subtitle: French
-    title: PSG Club Montréal en Francais
+      fabformURL: 'https://assets.mailerlite.com/jsonp/545609/forms/96230485994243345/subscribe'
+      subscribeTrackView: 'https://assets.mailerlite.com/jsonp/545609/forms/96230485994243345/track-view'
+      blogPageURL: fr/blog
+      contactLink: fr/join
+      footerContact:
+        topTitle: Rejoins-nous
+        title: Vis ta passion au sein de la communauté PSG de Montréal
+        button: S'inscrire
+        link: fr/join
+      titleAddition: Club de Supporter du PSG à Montréal
+      description: >-
+        Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
+    title: PSG Club Montréal
     weight: 1
   en:
     languageCode: en-US
     languageDirection: ltr
     languageName: English
+    contentDir: content/en
     params:
       subtitle: English
-    title: Project Documentation
+      fabformURL: 'https://assets.mailerlite.com/jsonp/545609/forms/96715455318722176/subscribe'
+      subscribeTrackView: 'https://assets.mailerlite.com/jsonp/545609/forms/96715455318722176/track-view'
+      blogPageURL: en/blog
+      contactLink: en/join
+      footerContact:
+        topTitle: Join us
+        title: Live your passion within the PSG Montreal community
+        button: Join
+        link: en/join
+      titleAddition: PSG fan club in Montréal
+      description: >-
+        Supporting PSG in Montreal, sharing our passion and cheering together!
+    title: PSG Club Montreal
     weight: 2
 staticDir:
   - static/

@@ -37,6 +37,6 @@ service:
   - content: >
       #### Soccer
 
-      Rejoins les joueurs du PSG Club Montréal, et pratique ta passion tout en portant les couleurs du clubs, l'historique BBRBB du maillot Hechter.
+      Rejoins les joueurs du PSG Club Montréal, et pratique ta passion tout en portant les couleurs du clubs, l'historique Bleu-Blanc-Rouge-Blanc-Bleu du maillot Hechter.
     image: images/service/psg-jersey.png
 _template: service_template
