@@ -40,8 +40,11 @@
       <div class="row">
         <div class="col-12">
           <div class="product-item-grid">
-            {{ range .Paginator.Pages }}
+            {{ range .Paginator.Pages.ByDate }}
               <div class="product-item">
+                {{ $asset := resources.Get .Params.featureImage }}
+                {{ $img := $asset.Resize "700x webp" }}
+                <img src="{{ $img.RelPermalink }}" class="product-item-thumb" alt="product-thumb" />
                 <div class="product-item-content">
                   <span>{{ .Params.categories }}</span>
                   <h3 class="mb-0">

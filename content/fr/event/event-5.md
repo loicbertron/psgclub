@@ -2,6 +2,8 @@
 title: 5 à 7 PSG Club Montréal
 date: 2023-09-07T17:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
+featureImage: images/event/lyonpsg-fb.png
+postImage: images/event/lyonpsg-insta.png
 definitiveDate: true
 categories: Social
 eventType: other

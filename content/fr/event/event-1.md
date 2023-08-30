@@ -2,6 +2,9 @@
 title: Paris Saint-Germain - RC Lens
 date: 2023-08-26T15:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
+expiryDate: 2023-08-26T18:00:00.000-04:00
+featureImage: images/event/lyonpsg-fb.png
+postImage: images/event/lyonpsg-insta.png
 definitiveDate: true
 categories: Match
 eventType: match

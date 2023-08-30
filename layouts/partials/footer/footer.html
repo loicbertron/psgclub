@@ -51,10 +51,12 @@
       <div class="col-lg-4">
         <div class="text-light footer__widget_sitemap mb-5">
           <h4 class="base-font">Sitemap</h4>
+          {{ $lang := .Lang  }}
           <ul class="unstyle-list small">
             {{ $sitemap := .Site.Menus.sitemap }}
             {{ range $sitemap }}
-              <li class="mb-2"><a class="text-light" href="{{ .URL | safeURL | relURL }}">{{ .Name }}</a></li>
+              {{ $joinPath := printf .URL | printf "%s%s%s" $lang "/"  }}
+              <li class="mb-2"><a class="text-light" href="{{ $joinPath | safeURL | relURL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </div>

@@ -27,16 +27,21 @@
             <h1>{{ .Title }}</h1>
           </div>
           <p>{{ .Params.shortDescription }}</p>
-          <div class="case-details-info">
-            {{ range .Params.table }}
-              <div class="case-details-info-item">
-                <h5>{{ .title }}</h5>
-                <p>{{ .description }}</p>
-              </div>
+          <div class="case-details-info" style="background-color: unset">
+            {{ if eq .Params.eventType "match" }}
+              {{ partial "event/matchBlock.html" . }}
+            {{ else }}
+              {{ partial "event/otherEventBlock.html" . }}
             {{ end }}
           </div>
+          {{ if .Params.postImage }}
           <div class="case-details-thumb mb-5">
+            {{ $asset := resources.Get .Params.postImage }}
+            {{ $img := $asset.Resize "1000x webp" }}
+            <img src="{{ $img.RelPermalink }}" alt="case-details" />
           </div>
+          {{ end }}
+
           {{ .Content }}
         </div>
       </div>
@@ -66,17 +71,17 @@
               <ul class="unstyle-list big">
                 <li>
                   <a href=" https://www.facebook.com/sharer/sharer.php?u={{ $url }}"
-                    ><i class="fa fa-facebook-official btn-zoom"></i
+                    ><i class="fa-brands fa-square-facebook btn-zoom"></i
                   ></a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url }}"
-                    ><i class="fa fa-linkedin-square btn-zoom"></i
+                    ><i class="fa-brands fa-linkedin btn-zoom"></i
                   ></a>
                 </li>
                 <li>
                   <a href="https://twitter.com/intent/tweet?&url={{ $url }}"
-                    ><i class="fa fa-twitter-square btn-zoom"></i
+                    ><i class="fa-brands fa-square-twitter btn-zoom"></i
                   ></a>
                 </li>
               </ul>

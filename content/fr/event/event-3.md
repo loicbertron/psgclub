@@ -2,6 +2,8 @@
 title: Paris Saint-Germain - OGC Nice
 date: 2023-09-17T15:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
+featureImage: images/event/lyonpsg-fb.png
+postImage: images/event/lyonpsg-insta.png
 definitiveDate: false
 categories: Match
 eventType: match
