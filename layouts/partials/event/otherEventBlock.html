@@ -1,0 +1,39 @@
+<div class="event__other-event_row">
+  <div class="event__other-event_date">
+    {{ .Date | time.Format ":date_full"}}
+  </div>
+  <hr>
+  <div class="event__other-event_flexbox">
+    {{ if .Params.thumbnail }}
+      {{ $asset1 := resources.Get .Params.thumbnail }}
+      {{ $img1 := $asset1.Resize "50x webp" }}
+      <div class="event__other-event_title-line">
+        <img alt="{{ .Title }}" class="event__other-event_item_image" src="{{ $img1.RelPermalink }}" />
+        <div class="event__other-event_title" style="text-align: left">
+          <span>{{ .Title }}</span>
+        </div>
+      </div>
+    {{ end }}
+
+
+  </div>
+
+
+  <div class="event__other-event_hour" style="width: 100px">
+    {{ .Date | time.Format ":time_short"}}
+  </div>
+
+  <div class="event__other-event_detail">
+
+    <i class="fa-solid fa-location-dot"></i>
+    {{ .Params.location }}
+  </div>
+
+
+  <div class="event__other-event_footer">
+    <div><a type="button" style="text-align: center;" class="btn btn-primary" href="{{ .Params.link }}">Participer</a></div>
+    <a class="event__other-event_see-more-btn" href="{{ .Permalink }}">{{ i18n "seedetails" }}</a>
+  </div>
+
+
+</div>
