@@ -1,12 +1,10 @@
 enable: true
-topTitle: Nous sommes le PSG Club Montréal!
 content: >
-  # Ici Aussi C'est Paris
+  # Nous sommes le PSG Club Montréal!
 
   Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
 buttonName: Inscris toi
 buttonURL: join
 image: images/hero/nuts.jpg
 videoThumb: images/hero/pistachios.jpg
-videoURL: 'https://www.youtube.com/watch?v=pUsMKEA__5Y'
 _template: hero_template

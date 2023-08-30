@@ -28,6 +28,14 @@
             >
           </li>
         {{ end }}
+
+        {{ range $key, $value := $.Site.Params.social }}
+        <li class="nav-item">
+          <a class="nav-link text-dark text-sm-center p-2 " target="_blank" href="{{ $value.url }}"><i class="{{ $value.icon }}"></i></a>
+        </li>
+        {{ end }}
+
+
       </ul>
       <div class="navbar-nav">
         {{ if .Site.IsMultiLingual }}
@@ -54,7 +62,8 @@
         {{ end }}
       </div>
       <div class="navbar-nav">
-        <a href="{{ "join" }}" class="btn btn-primary btn-zoom hire_button">{{ i18n "join" }}</a>
+        {{ $joinPath := printf "/join" | printf "%s%s" .Lang  }}
+        <a href="{{ $joinPath | safeURL | relURL }}" class="btn btn-primary btn-zoom hire_button">{{ i18n "join" }}</a>
       </div>
     </div>
   </div>

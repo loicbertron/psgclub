@@ -14,77 +14,13 @@
       </div>
       <div class="col-lg-6">
         <div class="tab-content">
-          <div class="event__match tab-pane active" id="{{ .tab1Target }}">
-            {{ range $index, $Section := .events }}
-              {{ if ge 10 $index}}
-                {{ if ge (time .date).Unix now.Unix }}
+          <div class="event__match tab-pane active" >
+            {{ range (where $.Site.RegularPages "Type" "=" "event").ByDate }}
+              {{ if ge (time .Date).Unix now.Unix }}
 
-                <div class="event__match_row">
+                  {{ partial "event/eventBlock.html" . }}
 
-
-
-
-                      <div class="event__match_date">
-                        {{ .date | time.Format ":date_full"}} - {{ .date | time.Format ":time_short"}}
-                      </div>
-                      <hr>
-                      <div class="event__match_flexbox">
-                        {{ if .homeLogo }}
-                          {{ $asset1 := resources.Get .homeLogo }}
-                          {{ $img1 := $asset1.Resize "150x webp" }}
-                          <div class="event__match_logocol">
-                            <img alt="{{ .homeTeam }}" class="event__match_item_image" src="{{ $img1.RelPermalink }}" />
-                          </div>
-                        {{ end }}
-                        <div class="event__match_contentcol">
-                          <div class="event__match_title">{{ .title }}</div>
-                          {{ if .description }}
-
-                          <div class="event__match_description">
-                            {{ .description | markdownify }}
-                          </div>
-                          {{ end }}
-
-
-                          <div class="event__match_detail">
-                            <i class="fa fa-map-marker"></i>
-                            {{ .location | markdownify }}
-                          </div>
-
-                          <div><a type="button" style="text-align: center;" class="btn btn-primary" href="{{ .link }}">Participer</a></div>
-
-                        </div>
-                        {{ if .awayLogo }}
-                          {{ $asset2 := resources.Get .awayLogo }}
-                          {{ $img2 := $asset2.Resize "150x webp" }}
-                          <div class="event__match_logocol">
-                            <img alt="{{ .awayTeam }}" class="event__match_item_image" src="{{ $img2.RelPermalink }}" />
-                          </div>
-                        {{ end }}
-                      </div>
-
-
-
-
-                    </div>
-
-                </div>
-                {{ end }}
               {{ end }}
-            {{ end }}
-          </div>
-
-          <div class="event__match tab-pane" id="{{ .tab2Target }}">
-            {{ $Section := .experience }}
-            {{ range $Section }}
-            <div class="event__match_item d-flex flex-nowrap">
-              <a href="{{ .url }}">
-                {{ $asset := resources.Get .image }}
-                {{ $img := $asset.Resize "300x webp" }}
-                <img class="event__match_item_image" alt="certificate" src="{{ $img.RelPermalink }}" />
-              </a>
-              <div>{{ .content | markdownify }}</div>
-            </div>
             {{ end }}
           </div>
         </div>

@@ -52,13 +52,26 @@
     }
 
     &_contentcol {
-      flex: 2 1 0;
+      flex: 1 0 18%;
       text-align: center;
+    }
+    &_detailcol {
+      flex: 1 100%;
+      text-align: center;
+    }
+    &_footer {
+      flex: 1 100%;
+      text-align: center;
+    }
+    &_teamcol {
+      flex: 1 0 24%;
+      font-size: 0.9rem;
     }
     &_logocol {
-      flex: 1 1 0;
+      flex: 1 0 12%;
       text-align: center;
     }
+
     &_title {
       font-weight: bold;
       font-size: 1.20rem;
@@ -66,8 +79,21 @@
     &_date {
       font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
       text-transform: uppercase;
-      letter-spacing: .6px;
+      letter-spacing: -0.06em;
       font-size: 0.90rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+    &_hour {
+      font-size: 2rem;
+      line-height: 1;
+      background: #1a2434;
+      padding: 10px 20px;
+      border-radius: 5px;
+      min-width: 112px;
+      color: #fff;
+      opacity: .65;
+      text-align: center;
     }
     &_description {
       opacity: 0.80;
@@ -95,8 +121,8 @@
         align-items: center;
       }
       &_image {
-        width: 100px;
-        max-width: 100px;
+        width: 46px;
+        max-width: 46px;
         height: 100%;
         object-fit: contain;
         @include mobile {

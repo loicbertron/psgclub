@@ -1,0 +1,55 @@
+<div class="event__match_row">
+  <div class="event__match_date">
+    {{ .Date | time.Format ":date_full"}}
+  </div>
+  <hr>
+  <div class="event__match_flexbox">
+    {{ if .Params.homeLogo }}
+    {{ $asset1 := resources.Get .Params.homeLogo }}
+    {{ $img1 := $asset1.Resize "50x webp" }}
+    <div class="event__match_teamcol" style="text-align: right">
+      <span>{{ .Params.homeTeam }}</span>
+    </div>
+    <div class="event__match_logocol">
+      <img alt="{{ .Params.homeTeam }}" class="event__match_item_image" src="{{ $img1.RelPermalink }}" />
+    </div>
+    {{ end }}
+    <div class="event__match_contentcol">
+      {{ if .Params.description }}
+
+      <div class="event__match_description">
+        {{ .Params.description | markdownify }}
+      </div>
+      {{ end }}
+
+      <div class="event__match_hour">
+        {{ .Date | time.Format ":time_short"}}
+      </div>
+
+    </div>
+    {{ if .Params.awayLogo }}
+    {{ $asset2 := resources.Get .Params.awayLogo }}
+    {{ $img2 := $asset2.Resize "50x webp" }}
+    <div class="event__match_logocol">
+      <img alt="{{ .Params.awayTeam }}" class="event__match_item_image" src="{{ $img2.RelPermalink }}" />
+    </div>
+    <div class="event__match_teamcol" style="text-align: left">
+      <span>{{ .Params.awayTeam }}</span>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="event__match_detailcol">
+    <div class="event__match_detail">
+      <i class="fa-solid fa-location-dot"></i>
+      {{ .Params.location }}
+    </div>
+  </div>
+
+  <div class="event__match_footer">
+    <div><a type="button" style="text-align: center;" class="btn btn-primary" href="{{ .Params.link }}">Participer</a></div>
+    <a class="see-more-btn" href="{{ .Permalink }}">See details</a>
+  </div>
+
+
+</div>
