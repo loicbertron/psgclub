@@ -1,6 +1,10 @@
 <div class="event__match_row">
   <div class="event__match_date">
     {{ .Date | time.Format ":date_full"}}
+    {{ if not .Params.definitiveDate }}
+      <br />
+      <span>{{ i18n "notdefinitive" }}</span>
+    {{ end }}
   </div>
   <hr>
   <div class="event__match_flexbox">
@@ -48,7 +52,7 @@
 
   <div class="event__match_footer">
     <div><a type="button" style="text-align: center;" class="btn btn-primary" href="{{ .Params.link }}">Participer</a></div>
-    <a class="see-more-btn" href="{{ .Permalink }}">See details</a>
+    <a class="event__match_see-more-btn" href="{{ .Permalink }}">{{ i18n "seedetails" }}</a>
   </div>
 
 

@@ -58,6 +58,7 @@
     &_detailcol {
       flex: 1 100%;
       text-align: center;
+      padding: 10px 10px;
     }
     &_footer {
       flex: 1 100%;
@@ -66,10 +67,16 @@
     &_teamcol {
       flex: 1 0 24%;
       font-size: 0.9rem;
+      margin: 0 0.2em;
     }
     &_logocol {
       flex: 1 0 12%;
       text-align: center;
+      margin: 0 0.2em;
+    }
+
+    &_see-more-btn {
+      font-size: 0.9rem;
     }
 
     &_title {
@@ -84,16 +91,21 @@
       line-height: 1.2;
       text-align: center;
     }
+
+    &_date span {
+      font-style: italic;
+      font-size: 0.70rem;
+    }
     &_hour {
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 1;
       background: #1a2434;
       padding: 10px 20px;
       border-radius: 5px;
-      min-width: 112px;
       color: #fff;
       opacity: .65;
       text-align: center;
+      margin: 0 0.2em;
     }
     &_description {
       opacity: 0.80;
@@ -106,7 +118,6 @@
       text-transform: uppercase;
       opacity: 0.65;
       font-size: 0.65rem;
-      padding-bottom: 10px;
     }
 
     &_item {
@@ -131,5 +142,126 @@
         }
       }
     }
+  }
+  &__other-event {
+    &_row {
+      overflow: hidden;
+      padding: 20px;
+      background: $white;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 20px 40px 0 rgba(50, 65, 141, 0.12);
+    }
+
+    hr {
+      margin-top: 0.2rem;
+    }
+
+    &_date {
+      font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      letter-spacing: -0.06em;
+      font-size: 0.90rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    &_flexbox {
+      display: flex;
+      //padding: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &_footer {
+      flex: 1 100%;
+      text-align: center;
+    }
+    &_title-line {
+      display: flex;
+      text-align: center;
+      margin: 0 0.2em;
+    }
+
+    &_see-more-btn {
+      font-size: 0.9rem;
+    }
+
+
+    &_title {
+      flex: 1 0 auto;
+      margin: 0 0.4em;
+      font-weight: bold;
+      font-size: 1.20rem;
+    }
+
+    &_item {
+      background: $white;
+      padding: 30px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 20px 40px 0 rgba(50, 65, 141, 0.12);
+      @include mobile {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      &_image {
+        width: 46px;
+        max-width: 46px;
+        height: 100%;
+        object-fit: contain;
+        @include mobile {
+          margin: 0 0 0px;
+          width: 100%;
+        }
+      }
+    }
+
+    &_detail {
+      flex: 1 100%;
+      text-align: center;
+      padding: 10px 10px;
+      font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      opacity: 0.65;
+      font-size: 0.65rem;
+    }
+
+
+
+
+
+
+
+
+    &_contentcol {
+      flex: 1 0 18%;
+      text-align: center;
+    }
+
+
+
+
+    &_hour {
+      font-size: 1.5rem;
+      line-height: 1;
+      background: #1a2434;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #fff;
+      opacity: .65;
+      text-align: center;
+      margin: 0 auto;
+    }
+    &_description {
+      opacity: 0.80;
+      font-size: 0.90rem;
+      line-height: 14px;
+      padding-bottom: 10px;
+    }
+
+
+
   }
 }

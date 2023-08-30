@@ -14,3 +14,8 @@
   translation: "J'accepte que les données fournies soient enregistrées et stockées."
 - id : join
   translation : "Inscris toi"
+- id : seedetails
+  translation : "Plus d'info"
+- id : notdefinitive
+  translation : "( Date non définitive )"
+

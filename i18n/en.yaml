@@ -14,3 +14,7 @@
   translation: "I agree that my submitted data is being collected and stored."
 - id : join
   translation : "Join"
+- id : seedetails
+  translation : "See details"
+- id : notdefinitive
+  translation : "( Date to be confirmed )"

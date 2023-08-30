@@ -1,14 +1,15 @@
 ---
-title: PSG - OM
-date: 2023-09-15T15:00:00.000-04:00
+title: Paris Saint-Germain - RC Lens
+date: 2023-08-26T15:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
-thumbnail: images/product/snapback-black-silver.png
-categories: Casquette, Snapback
+definitiveDate: true
+categories: Match
+eventType: match
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 homeLogo: /images/teams/13.png
-awayLogo: /images/teams/7.png
-homeTeam: PSG
-awayTeam: Lorient
+awayLogo: /images/teams/6.png
+homeTeam: Paris SG
+awayTeam: RC Lens
 link: https://www.facebook.com/events/1031116564562056
 location: Union Française de Montréal
 ---

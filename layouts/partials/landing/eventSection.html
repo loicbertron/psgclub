@@ -17,8 +17,11 @@
           <div class="event__match tab-pane active" >
             {{ range (where $.Site.RegularPages "Type" "=" "event").ByDate }}
               {{ if ge (time .Date).Unix now.Unix }}
-
-                  {{ partial "event/eventBlock.html" . }}
+                {{ if eq .Params.eventType "match" }}
+                  {{ partial "event/matchBlock.html" . }}
+                {{ else }}
+                  {{ partial "event/otherEventBlock.html" . }}
+                {{ end }}
 
               {{ end }}
             {{ end }}
