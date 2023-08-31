@@ -1,20 +1,20 @@
 {
-  "name": "corporio",
-  "description": "Corporio Hugo Theme",
-  "version": "1.5.8",
+  "name": "PSGClub.com",
+  "description": "PSG Club Montreal Website",
+  "version": "2.0.0",
   "engines": {
     "node": ">=16.16.0 <17.0.0 || ^18"
   },
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/AminZibayi/Corporio",
+  "repository": "https://github.com/loicbertron/psgclub",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "author": {
-    "name": "Amin Zibayi"
+    "name": "Loïc Bertron"
   },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
