@@ -22,4 +22,5 @@
   translation : "Événement suivant"
 - id : previous-event
   translation : "Événement précédent"
-
+- id : participate
+  translation : "Participer"

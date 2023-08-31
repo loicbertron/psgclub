@@ -51,7 +51,9 @@
   </div>
 
   <div class="event__match_footer">
-    <div><a type="button" style="text-align: center;" class="btn btn-primary" href="{{ .Params.link }}">Participer</a></div>
+    {{ if .Params.link }}
+      <div><a type="button" style="text-align: center;" class="btn btn-primary" href="{{ .Params.link }}">{{ i18n "participate" }}</a></div>
+    {{ end }}
     <a class="event__match_see-more-btn" href="{{ .Permalink }}">{{ i18n "seedetails" }}</a>
   </div>
 

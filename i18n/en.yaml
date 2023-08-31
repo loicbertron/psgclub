@@ -22,3 +22,5 @@
   translation : "Next event"
 - id : previous-event
   translation : "Previous event"
+- id : participate
+  translation : "Be part of it"

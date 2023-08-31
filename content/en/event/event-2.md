@@ -6,7 +6,7 @@ featureImage: images/event/lyonpsg-insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: 4e journée de Ligue 1.
+shortDescription: Ligue 1 - Matchday 6
 homeLogo: /images/teams/159.png
 awayLogo: /images/teams/13.png
 homeTeam: Lyon
@@ -14,7 +14,6 @@ awayTeam: Paris SG
 link: https://www.facebook.com/events/605064798484040
 location: Union Française de Montréal
 ---
+Come and experience the PSG match at the Union Française with the PSG Club Montreal.
 
-Venez vivre le match du PSG à l'Union Française avec le PSG Club Montréal.
-
-En plus du match sur grand écran et notre offre de bar, vous courrez la chance de gagner des lots PSG et PSG Club Montréal en participant au jeux organisés, et vous pourrez vous immerger dans l'ambiance du PSG Club Montréal, en chantant et supportant le PSG avec nous !
+In addition to the match on the big screen and our bar offer, you will have the chance to win PSG and PSG Club Montreal prizes by participating in the organized games, and you will be able to immerse yourself in the atmosphere of the PSG Club Montreal, singing and supporting PSG with us!
