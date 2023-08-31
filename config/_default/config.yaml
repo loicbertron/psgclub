@@ -23,6 +23,8 @@ languages:
       description: >-
         Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
     title: PSG Club Montréal
+    images:
+      - /images/logo.png
     weight: 1
   en:
     languageCode: en-US
@@ -44,6 +46,8 @@ languages:
       description: >-
         Supporting PSG in Montreal, sharing our passion and cheering together!
     title: PSG Club Montreal
+    images:
+      - /images/logo.png
     weight: 2
 staticDir:
   - static/
@@ -55,7 +59,6 @@ enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
 paginate: 6
-title: PSG Club Montreal
 rssLimit: 10
 outputs:
   home:
