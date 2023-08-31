@@ -6,5 +6,5 @@ Disallow: /
 {{ end }}
 {{ range .Site.Languages  }}
 {{ $joinPath := printf "sitemap.xml" | printf "%s%s%s" . "/"  }}
-Sitemap: {{ $joinPath | safeURL | relURL -}}
+Sitemap: {{ $joinPath | safeURL | absURL -}}
 {{ end }}
