@@ -20,11 +20,12 @@ languages:
         button: S'inscrire
         link: fr/join
       titleAddition: Club de Supporter du PSG à Montréal
+      images:
+        - images/logo.png
       description: >-
         Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
     title: PSG Club Montréal
-    images:
-      - /images/logo.png
+    description: Supporter le PSG à Montréal, partager notre passion et vibrer tous ensemble !
     weight: 1
   en:
     languageCode: en-US
@@ -42,12 +43,13 @@ languages:
         title: Live your passion within the PSG Montreal community
         button: Join
         link: en/join
+      images:
+        - images/logo.png
       titleAddition: PSG fan club in Montréal
       description: >-
         Supporting PSG in Montreal, sharing our passion and cheering together!
     title: PSG Club Montreal
-    images:
-      - /images/logo.png
+    description: Supporting PSG in Montreal, sharing our passion and cheering together!
     weight: 2
 staticDir:
   - static/
