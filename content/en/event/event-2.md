@@ -1,5 +1,5 @@
 ---
-title: Olympique Lyonnais - Paris Saint-Germain
+title: Lyon - Paris SG
 date: 2023-09-03T14:45:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
 featureImage: images/event/lyonpsg-insta.png

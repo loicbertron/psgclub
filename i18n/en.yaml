@@ -18,3 +18,7 @@
   translation : "See details"
 - id : notdefinitive
   translation : "( Date to be confirmed )"
+- id : next-event
+  translation : "Next event"
+- id : previous-event
+  translation : "Previous event"

@@ -1,5 +1,5 @@
 ---
-title: Olympique de Marseille - Paris Saint-Germain
+title: Marseille - Paris SG
 date: 2023-09-24T14:45:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
 featureImage: images/event/lyonpsg-fb.png

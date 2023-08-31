@@ -18,4 +18,8 @@
   translation : "Plus d'info"
 - id : notdefinitive
   translation : "( Date non définitive )"
+- id : next-event
+  translation : "Événement suivant"
+- id : previous-event
+  translation : "Événement précédent"
 
