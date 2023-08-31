@@ -4,4 +4,7 @@ Allow: /
 {{ else -}}
 Disallow: /
 {{ end }}
-Sitemap: {{ "sitemap.xml" | safeURL | relURL -}}
+{{ range .Site.Languages  }}
+{{ $joinPath := printf "sitemap.xml" | printf "%s%s%s" . "/"  }}
+Sitemap: {{ $joinPath | safeURL | relURL -}}
+{{ end }}
