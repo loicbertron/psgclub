@@ -6,8 +6,18 @@
   {{ $options := (dict "targetPath" "main.css" "transpiler" "libsass" "outputStyle" "compressed" "includePaths" (slice "node_modules" "static")) -}}
   {{ $css = resources.Get . | toCSS $options | postCSS (dict "config" "config/postcss.config.js") | resources.Fingerprint "sha512" -}}
 {{ end -}}
+
+{{ $inlineCSS := $css | resources.Minify }}
+<style type="text/CSS">
+  {{ $inlineCSS.Content | safeCSS }}
+</style>
+
+
 <link
-  rel="stylesheet"
+  rel="preload"
   href="{{ $css.Permalink | relURL }}"
+  as="style"
   integrity="{{ $css.Data.Integrity }}"
+  onload="this.onload=null;this.rel='stylesheet'"
   crossorigin="anonymous" />
+
