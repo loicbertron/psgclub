@@ -2,9 +2,11 @@ window.addEventListener("DOMContentLoaded", function () {
   var form = document.getElementById("contact-form");
   var button = document.getElementById("contact-form-button");
   var status = document.getElementById("contact-form-status");
+  var lang = document.getElementById("site-lang") ? document.getElementById("site-lang").value : "fr";
 
   function success() {
     form.reset();
+    window.location.href = "/" + lang + "/joined";
     button.style = "display: none ";
     status.innerHTML = "Merci - Veuillez vérifier vos courriels pour terminer l'inscription <br/> Thanks! Please verify your emails to complete the registration.";
   }
