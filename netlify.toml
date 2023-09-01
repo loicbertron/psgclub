@@ -8,7 +8,7 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self' assets.mailerlite.com;font-src 'self' fonts.gstatic.com;style-src 'self' fonts.googleapis.com"
+    Content-Security-Policy = "default-src 'self' assets.mailerlite.com;font-src 'self' fonts.gstatic.com;style-src 'self' fonts.googleapis.com;script-src  'self' googletagmanager.com;img-src 'self' google-analytics.com googletagmanager.com; connect-src 'self' google-analytics.com analytics.google.com googletagmanager.com"
     X-Content-Type-Options = "nosniff"
 
 [build.environment]
