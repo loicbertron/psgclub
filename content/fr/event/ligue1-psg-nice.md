@@ -1,19 +1,19 @@
 ---
-title: Lyon - Paris SG
-date: 2023-09-03T14:45:00.000-04:00
+title: Paris SG - OGC Nice
+date: 2023-09-15T15:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
-expiryDate: 2023-09-03T18:00:00.000-04:00
-featureImage: images/event/lyonpsg-insta.png
+expiryDate: 2023-09-18T15:00:00.000-04:00
+featureImage: images/event/psgnice-insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: 4e journée de Ligue 1.
-homeLogo: /images/teams/159.png
-awayLogo: /images/teams/13.png
-homeTeam: Lyon
-awayTeam: Paris SG
-link: https://www.facebook.com/events/605064798484040
+shortDescription: 5e journée de Ligue 1
+homeLogo: /images/teams/13.png
+awayLogo: /images/teams/30.png
+homeTeam: Paris SG
+awayTeam: OGC Nice
 location: Union Française de Montréal
+link: https://www.facebook.com/events/3634163270188197
 ---
 
 Venez vivre le match du PSG à l'Union Française avec le PSG Club Montréal.

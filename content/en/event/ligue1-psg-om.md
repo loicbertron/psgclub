@@ -1,18 +1,21 @@
 ---
-title: Marseille - Paris SG
+title: Paris SG - OM
 date: 2023-09-24T14:45:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
-featureImage: images/event/5.png
+expiryDate: 2023-09-24T19:00:00.000-04:00
+featureImage: images/event/psgom-insta.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: Ligue 1 - Matchday 6
-homeLogo: /images/teams/1.png
-awayLogo: /images/teams/13.png
-homeTeam: OM
-awayTeam: Paris SG
+homeLogo: /images/teams/13.png
+awayLogo: /images/teams/1.png
+homeTeam: Paris SG
+awayTeam: OM
 location: Union Française de Montréal
+link: https://www.facebook.com/events/1227981904560938
 ---
+
 Come and experience the PSG match at the Union Française with the PSG Club Montreal.
 
 In addition to the match on the big screen and our bar offer, you will have the chance to win PSG and PSG Club Montreal prizes by participating in the organized games, and you will be able to immerse yourself in the atmosphere of the PSG Club Montreal, singing and supporting PSG with us!

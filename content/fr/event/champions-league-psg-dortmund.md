@@ -1,17 +1,19 @@
 ---
-title: OM - Paris SG
-date: 2023-09-24T14:45:00.000-04:00
+title: Paris SG - Borussia Dortmund
+date: 2023-09-19T15:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
-featureImage: images/event/4.png
+expiryDate: 2023-09-19T18:00:00.000-04:00
+featureImage: images/event/psgdortmund-insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: 6e journée de Ligue 1
-homeLogo: /images/teams/1.png
-awayLogo: /images/teams/13.png
-homeTeam: OM
-awayTeam: Paris SG
+shortDescription: 1e journée de Ligue des Champions
+homeLogo: /images/teams/13.png
+awayLogo: /images/teams/dortmund.png
+homeTeam: Paris SG
+awayTeam: Dortmund
 location: Union Française de Montréal
+link: https://www.facebook.com/events/683270320320722
 ---
 
 Venez vivre le match du PSG à l'Union Française avec le PSG Club Montréal.

@@ -1,21 +1,21 @@
 main:
-  - name: Accueil
+  - name: menu-home
     url: ""
     weight: 1
-  - name: Événements
+  - name: menu-event
     url: "#event"
     weight: 2
-  - name: Association
+  - name: menu-association
     url: "#about"
     weight: 3
 sitemap:
-  - name: Accueil
+  - name: menu-home
     url: ""
     weight: 1
-  - name: S'inscrire
+  - name: join
     url: "join"
     weight: 2
-  - name: Événements
+  - name: menu-event
     url: "event"
     weight: 3
 

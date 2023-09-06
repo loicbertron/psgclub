@@ -2,6 +2,7 @@
 title: 5 à 7 PSG Club Montréal
 date: 2023-09-07T17:00:00.000-04:00
 publishdate: 2023-08-01T12:00:00.000-04:00
+expiryDate: 2023-08-19T18:00:00.000-04:00
 featureImage: images/event/4.png
 definitiveDate: true
 categories: Social

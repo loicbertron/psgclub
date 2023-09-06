@@ -1,12 +1,10 @@
 enable: true
-topTitle: We are the PSG Club Montreal
 content: >
-  # Here as well, this is Paris
+  # We are the PSG Club Montreal
 
   Supporting PSG in Montreal, sharing our passion and cheering together!
-buttonName: Inscris toi
+buttonName: Join us
 buttonURL: en/join
 image: images/hero/nuts.jpg
 videoThumb: images/hero/pistachios.jpg
-videoURL: 'https://www.youtube.com/watch?v=pUsMKEA__5Y'
 _template: hero_template

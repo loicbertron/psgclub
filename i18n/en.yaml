@@ -24,3 +24,9 @@
   translation : "Previous event"
 - id : participate
   translation : "Be part of it"
+- id : menu-event
+  translation : "Events"
+- id : menu-home
+  translation : "Home"
+- id : menu-association
+  translation : "Association"

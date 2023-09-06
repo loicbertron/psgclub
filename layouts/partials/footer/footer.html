@@ -55,7 +55,7 @@
             {{ $sitemap := .Site.Menus.sitemap }}
             {{ range $sitemap }}
               {{ $joinPath := printf .URL | printf "%s%s%s" $lang "/"  }}
-              <li class="mb-2"><a class="text-light" href="{{ $joinPath | safeURL | relURL }}">{{ .Name }}</a></li>
+              <li class="mb-2"><a class="text-light" href="{{ $joinPath | safeURL | relURL }}">{{ i18n .Name }}</a></li>
             {{ end }}
           </ul>
         </div>
