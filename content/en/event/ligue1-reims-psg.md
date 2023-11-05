@@ -3,7 +3,7 @@ title: Reims - Paris SG
 date: 2023-11-11T11:00:00.000-05:00
 publishdate: 2023-08-01T12:00:00.000-05:00
 expiryDate: 2023-11-11T19:00:00.000-05:00
-featureImage: images/event/RennesPSG.png
+featureImage: images/event/ReimsPSG.png
 definitiveDate: true
 categories: Match
 eventType: match
