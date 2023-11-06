@@ -3,7 +3,7 @@
   "description": "PSG Club Montreal Website",
   "version": "2.0.0",
   "engines": {
-    "node": ">=16.16.0 <17.0.0 || ^18"
+    "node": ">=21.0.0"
   },
   "browserslist": [
     "defaults"
@@ -45,7 +45,6 @@
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
     "latest:hugo": "gh release view --repo gohugoio/hugo",
     "latest:hyas": "gh release view --repo h-enk/hyas",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {
@@ -73,7 +72,6 @@
     "autoprefixer": "^10.4.11",
     "eslint": "^8.23.1",
     "exec-bin": "^1.0.0",
-    "hugo-installer": "^4.0.1",
     "husky": "^8.0.1",
     "markdownlint-cli2": "^0.8.1",
     "netlify-plugin-submit-sitemap": "^0.4.0",
