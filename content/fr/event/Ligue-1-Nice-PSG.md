@@ -1,17 +1,17 @@
 ---
-title: PSG - LE Havre
-date: 2024-04-27T15:00:00.000-04:00
+title: Nice - PSG
+date: 2024-05-15T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-04-28T07:00:00.000Z
-featureImage: images/event/PSG-LE Havre-Insta.png
+expiryDate: 2024-05-16T07:00:00.000Z
+featureImage: images/event/Nice-PSG-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: Ligue 1
-homeLogo: /images/teams/PSG.png
-awayLogo: /images/teams/LE Havre.png
-homeTeam: PSG
-awayTeam: LE Havre
+homeLogo: /images/teams/Nice.png
+awayLogo: /images/teams/PSG.png
+homeTeam: Nice
+awayTeam: PSG
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---
