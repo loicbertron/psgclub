@@ -62,19 +62,19 @@ address:
     Montréal, QC H2L 2N9
   email: info@psgclubmontreal.com
 social:
-  - icon: fa-brands fa-discord
-    url: 'https://bit.ly/psgclub'
+  - icon: fa-brands fa-whatsapp
+    url: 'https://chat.whatsapp.com/F5Id0TvFsEHCtGjkUdD9Xu'
     weight: 1
   - icon: fa-brands fa-instagram
     url: 'https://instagram.com/psg_clubmontreal'
     weight: 2
-  - icon: fa-brands fa-square-facebook
+  - icon: fa-brands fa-facebook-f
     url: 'https://facebook.com/psgclubmontreal'
     weight: 3
-  - icon: fa-brands fa-linkedin
+  - icon: fa-brands fa-linkedin-in
     url: 'https://www.linkedin.com/company/psgclubmontreal'
     weight: 4
-  - icon: fa-brands fa-twitter-square
+  - icon: fa-brands fa-x-twitter
     url: 'https://twitter.com/psgclubmontreal'
     weight: 5
 _template: parameters_template
