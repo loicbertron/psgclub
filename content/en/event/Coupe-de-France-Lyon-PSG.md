@@ -1,16 +1,16 @@
 ---
-title: Metz - PSG
-date: 2024-05-19T15:00:00.000-04:00
+title: Lyon - PSG
+date: 2024-05-25T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-05-20T07:00:00.000Z
-featureImage: images/event/Metz-PSG-Insta.png
+expiryDate: 2024-05-26T07:00:00.000Z
+featureImage: images/event/Lyon-PSG-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: Ligue 1
-homeLogo: /images/teams/Metz.png
+shortDescription: Coupe de France
+homeLogo: /images/teams/Lyon.png
 awayLogo: /images/teams/PSG.png
-homeTeam: Metz
+homeTeam: Lyon
 awayTeam: PSG
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events

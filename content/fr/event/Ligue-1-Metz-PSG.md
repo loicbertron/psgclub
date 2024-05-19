@@ -1,8 +1,8 @@
 ---
 title: Metz - PSG
-date: 2024-05-18T15:00:00.000-04:00
+date: 2024-05-19T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-05-19T07:00:00.000Z
+expiryDate: 2024-05-20T07:00:00.000Z
 featureImage: images/event/Metz-PSG-Insta.png
 definitiveDate: true
 categories: Match

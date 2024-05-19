@@ -1,8 +1,8 @@
 ---
 title: PSG - Toulouse
-date: 2024-05-11T15:00:00.000-04:00
+date: 2024-05-12T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-05-12T07:00:00.000Z
+expiryDate: 2024-05-13T07:00:00.000Z
 featureImage: images/event/PSG-Toulouse-Insta.png
 definitiveDate: true
 categories: Match
