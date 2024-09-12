@@ -1,16 +1,16 @@
 ---
-title: Nice - PSG
-date: 2024-10-06T14:45:00.000-04:00
+title: Red Bull Salzburg - PSG
+date: 2024-12-10T15:00:00.000-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-10-07T06:45:00.000Z
-featureImage: images/event/Nice-PSG-Insta.png
+expiryDate: 2024-12-11T08:00:00.000Z
+featureImage: images/event/Red Bull Salzburg-PSG-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: Ligue 1
-homeLogo: /images/teams/Nice.png
+shortDescription: UEFA Champions League
+homeLogo: /images/teams/Red Bull Salzburg.png
 awayLogo: /images/teams/PSG.png
-homeTeam: Nice
+homeTeam: Red Bull Salzburg
 awayTeam: PSG
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events

@@ -1,17 +1,17 @@
 ---
-title: Nice - PSG
-date: 2024-10-06T14:45:00.000-04:00
+title: PSG - Stade Brestois 29
+date: 2024-09-14T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-10-07T06:45:00.000Z
-featureImage: images/event/Nice-PSG-Insta.png
+expiryDate: 2024-09-15T07:00:00.000Z
+featureImage: images/event/PSG-Stade Brestois 29-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: Ligue 1
-homeLogo: /images/teams/Nice.png
-awayLogo: /images/teams/PSG.png
-homeTeam: Nice
-awayTeam: PSG
+homeLogo: /images/teams/PSG.png
+awayLogo: /images/teams/Stade Brestois 29.png
+homeTeam: PSG
+awayTeam: Stade Brestois 29
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---
