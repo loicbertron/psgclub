@@ -1,16 +1,16 @@
 ---
-title: Marseille - PSG
-date: 2024-10-27T15:45:00.000-04:00
+title: Angers - PSG
+date: 2024-11-09T15:00:00.000-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-10-28T07:45:00.000Z
-featureImage: images/event/Marseille-PSG-Insta.png
+expiryDate: 2024-11-10T08:00:00.000Z
+featureImage: images/event/Angers-PSG-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: Ligue 1
-homeLogo: /images/teams/Marseille.png
+homeLogo: /images/teams/Angers.png
 awayLogo: /images/teams/PSG.png
-homeTeam: Marseille
+homeTeam: Angers
 awayTeam: PSG
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
