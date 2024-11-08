@@ -1,17 +1,17 @@
 ---
-title: PSG - Toulouse
-date: 2024-11-22T15:00:00.000-05:00
+title: PSG - Nantes
+date: 2024-11-30T15:00:00.000-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-11-23T08:00:00.000Z
-featureImage: images/event/PSG-Toulouse-Insta.png
+expiryDate: 2024-12-01T08:00:00.000Z
+featureImage: images/event/PSG-Nantes-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: Ligue 1
 homeLogo: /images/teams/PSG.png
-awayLogo: /images/teams/Toulouse.png
+awayLogo: /images/teams/Nantes.png
 homeTeam: PSG
-awayTeam: Toulouse
+awayTeam: Nantes
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---
