@@ -1,8 +1,8 @@
 ---
 title: PSG - Lyon
-date: 2024-04-21T15:00:00.000-04:00
+date: 2024-12-15T14:45:00.000-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-04-22T07:00:00.000Z
+expiryDate: 2024-12-16T07:45:00.000Z
 featureImage: images/event/PSG-Lyon-Insta.png
 definitiveDate: true
 categories: Match
