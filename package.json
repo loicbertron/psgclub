@@ -5,6 +5,9 @@
   "engines": {
     "node": ">=21.0.0"
   },
+  "hugo-bin": {
+    "buildTags": "extended"
+  },
   "browserslist": [
     "defaults"
   ],
