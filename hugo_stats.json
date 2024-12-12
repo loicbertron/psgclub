@@ -96,6 +96,7 @@
       "d-flex",
       "d-inline-block",
       "dropdown",
+      "dropdown-item",
       "dropdown-menu",
       "dropdown-toggle",
       "event",
