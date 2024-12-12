@@ -13,12 +13,12 @@ location: Union Française de Montréal
 link: https://www.facebook.com/events/470973722682899
 ---
 
-PSG Club Montreal event this Wednesday, December 18 immediately after Monaco-PSG.
+Soirée PSG Club Montréal ce mercredi 18 décembre tout de suite après Monaco-PSG. 
 
-Little 5 to 9 to close this beautiful year 2024 together.
+Petit 5 à 9 pour clôturer cette belle année 2024 ensemble. 
 
-We can look back on an assessment of this first half of the season by discussing and having fun over a good drink during this end-of-year holiday season.
+On pourra revenir sur un bilan de cette première moitié de saison en discutant et en ayant du plaisir autour d’un bon petit verre en cette période de fêtes de fin d’année. 
 
-Also beautiful competitions with music and memories of our Parisian history and all these beautiful years of the PSG Club.
+Aussi des beaux jeux concours avec de la musique et des souvenirs de notre histoire parisienne et de toutes ces belles années du PSG Club. 
 
-Come many!!
+Venez nombreux !!

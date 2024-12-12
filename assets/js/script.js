@@ -98,17 +98,6 @@ $(document).ready(function () {
     $(".navbar-collapse").collapse("hide");
   });
 
-
-    document.addEventListener('DOMContentLoaded', function() {
-    // Your code to initialize or control the dropdown goes here
-    // Example (if you had any manual dropdown logic):
-    const dropdownToggle = document.querySelector('#language-switch .dropdown-toggle');
-    const dropdownMenu = document.querySelector('#language-switch .dropdown-menu');
-    dropdownToggle.addEventListener('click', function() {
-       dropdownMenu.classList.toggle('show');
-    });
-  });
-
   // service slider
   $(".service__slider").slick({
     infinite: false,
