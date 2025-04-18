@@ -1,8 +1,8 @@
 ---
 title: Arsenal - PSG
-date: 2024-10-01T15:00:00.000-04:00
+date: 2025-04-29T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-10-02T07:00:00.000Z
+expiryDate: 2025-04-30T07:00:00.000Z
 featureImage: images/event/Arsenal-PSG-Insta.png
 definitiveDate: true
 categories: Match

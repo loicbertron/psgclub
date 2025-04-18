@@ -1,8 +1,8 @@
 ---
 title: PSG - LE Havre
-date: 2024-04-27T15:00:00.000-04:00
+date: 2025-04-19T11:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-04-28T07:00:00.000Z
+expiryDate: 2025-04-20T03:00:00.000Z
 featureImage: images/event/PSG-LE Havre-Insta.png
 definitiveDate: true
 categories: Match
