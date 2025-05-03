@@ -1,17 +1,17 @@
 ---
-title: Strasbourg - PSG
-date: 2025-05-03T11:00:00.000-04:00
+title: PSG - Auxerre
+date: 2025-05-17T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-05-04T03:00:00.000Z
-featureImage: images/event/Strasbourg-PSG-Insta.png
+expiryDate: 2025-05-18T07:00:00.000Z
+featureImage: images/event/PSG-Auxerre-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: Ligue 1
-homeLogo: /images/teams/Strasbourg.png
-awayLogo: /images/teams/PSG.png
-homeTeam: Strasbourg
-awayTeam: PSG
+homeLogo: /images/teams/PSG.png
+awayLogo: /images/teams/Auxerre.png
+homeTeam: PSG
+awayTeam: Auxerre
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---

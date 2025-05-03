@@ -199,10 +199,6 @@
       "offset-lg-3",
       "offset-md-0",
       "p-2",
-      "page-item",
-      "page-link",
-      "pagination",
-      "pagination-lg",
       "post-meta",
       "pre-line",
       "previous",
@@ -240,8 +236,7 @@
       "text-sm-center",
       "title",
       "top-title",
-      "unstyle-list",
-      "w-100"
+      "unstyle-list"
     ],
     "ids": [
       "a",
