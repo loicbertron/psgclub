@@ -1,0 +1,9 @@
+{
+  "name": "PSG-Image-Generator",
+  "version": "1.0.0",
+  "dependencies": {
+    "facebook-sdk": "^0.3.3",
+    "fb": "^2.0.0",
+    "moment": "^2.30.1"
+  }
+}

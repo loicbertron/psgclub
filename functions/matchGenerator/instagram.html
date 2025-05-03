@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bangers&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-position: 8px 8px;
+            background-image: url("{{{backgroundImage}}}") ;
+            background-repeat: no-repeat;
+            width: 1080px;
+            height: 1080px;
+        }
+        #container {
+            width: 760px;
+            height: 100px;
+            position: absolute;
+            top: 555px;
+            left: 164px;
+            float:left;
+        }
+        img {
+            max-width: 120px;
+            float:left;
+        }
+        #spacer {
+            width: 120px;
+            height: 120px;
+            float:left;
+        }
+        #teams {
+            float:left;
+            margin-top: 4px;
+            width: 520px;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+            font-family: "Bangers", system-ui;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 37px;
+            font-style: normal;
+        }
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+        }
+        #date {
+            width: 760px;
+            height: 50px;
+            position: absolute;
+            top: 693px;
+            left: 164px;
+            float:left;
+            text-align: center;
+            line-height: 50px;
+            font-family: "Antonio", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-size: x-large;
+            font-style: normal;
+        }
+        #heure {
+            width: 760px;
+            height: 64px;
+            position: absolute;
+            top: 773px;
+            left: 164px;
+            float:left;
+            text-align: center;
+            line-height: 64px;
+            font-family: "Antonio", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-size: xxx-large;
+            font-style: normal;
+        }
+        #location {
+            width: 760px;
+            height: 64px;
+            position: absolute;
+            top: 906px;
+            left: 164px;
+            float:left;
+            text-align: center;
+            line-height: 64px;
+            font-family: "Antonio", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-size: x-large;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <img src="{{{homeLogo}}}">
+    <div id="teams">
+        <span>{{homeTeam}} vs {{awayTeam}}</span>
+    </div>
+    <img src="{{{awayLogo}}}">
+</div>
+<div id="date">{{date}}</div>
+<div id="heure">{{time}}</div>
+<div id="location">Union Française - 429 Avenue Viger E, Montréal</div>
+</body>
+</html>
