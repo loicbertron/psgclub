@@ -1,17 +1,17 @@
 ---
-title: PSG - Reims
-date: 2025-05-24T15:00:00.000-04:00
+title: PSG - Inter
+date: 2025-05-31T15:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-05-25T07:00:00.000Z
-featureImage: images/event/PSG-Reims-Insta.png
+expiryDate: 2025-06-01T07:00:00.000Z
+featureImage: images/event/PSG-Inter-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: Coupe de France
+shortDescription: UEFA Champions League
 homeLogo: /images/teams/PSG.png
-awayLogo: /images/teams/Reims.png
+awayLogo: /images/teams/Inter.png
 homeTeam: PSG
-awayTeam: Reims
+awayTeam: Inter
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---
