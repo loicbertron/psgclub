@@ -12,7 +12,7 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self' assets.mailerlite.com;form-action 'self' *.mailerlite.com; font-src 'self' fonts.gstatic.com;style-src 'self' fonts.googleapis.com assets.mailerlite.com 'unsafe-inline';script-src  'self' *.googletagmanager.com unpkg.com cdn.jsdelivr.net assets.mailerlite.com 'unsafe-inline';img-src 'self' *.google-analytics.com *.googletagmanager.com data:; connect-src 'self' *.mailerlite.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com"
+    Content-Security-Policy = "default-src 'self' assets.mailerlite.com;frame-src 'self' 'https://www.zeffy.com/';form-action 'self' *.mailerlite.com; font-src 'self' fonts.gstatic.com;style-src 'self' fonts.googleapis.com assets.mailerlite.com 'unsafe-inline';script-src  'self' *.googletagmanager.com unpkg.com cdn.jsdelivr.net assets.mailerlite.com 'unsafe-inline';img-src 'self' *.google-analytics.com *.googletagmanager.com data:; connect-src 'self' *.mailerlite.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com"
     X-Content-Type-Options = "nosniff"
 
 [build.environment]
