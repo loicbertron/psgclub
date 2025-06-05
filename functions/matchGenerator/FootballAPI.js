@@ -20,7 +20,7 @@ const getUpcomingGames = function () {
         const now = moment();
         const today = now.format('YYYY-MM-DD');
         const three_months_from_now = now.add(3, 'months').format('YYYY-MM-DD');
-        const params = {season:2024, team:85, from:today, to:three_months_from_now}
+        const params = {season:2025, team:85, from:today, to:three_months_from_now}
         url.search = new URLSearchParams(params).toString();
 
         fetch(url, requestOptions)
