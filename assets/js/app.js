@@ -15,3 +15,4 @@ import "./assets/js/alert";
 import "./script";
 
 import "./form-handler";
+import "./swiper-init";
