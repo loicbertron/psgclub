@@ -1,8 +1,8 @@
 ---
 title: PSG - Auxerre
-date: 2025-05-17T15:00:00.000-04:00
+date: 2025-09-28T11:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-05-18T07:00:00.000Z
+expiryDate: 2025-09-29T03:00:00.000Z
 featureImage: images/event/PSG-Auxerre-Insta.png
 definitiveDate: true
 categories: Match

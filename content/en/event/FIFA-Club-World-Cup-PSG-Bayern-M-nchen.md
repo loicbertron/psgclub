@@ -1,17 +1,17 @@
 ---
-title: Marseille - PSG
-date: 2025-09-21T11:00:00.000-04:00
+title: PSG - Bayern München
+date: 2025-07-05T12:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-09-22T03:00:00.000Z
-featureImage: images/event/Marseille-PSG-Insta.png
+expiryDate: 2025-07-06T04:00:00.000Z
+featureImage: images/event/PSG-Bayern München-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: Ligue 1
-homeLogo: /images/teams/Marseille.png
-awayLogo: /images/teams/PSG.png
-homeTeam: Marseille
-awayTeam: PSG
+shortDescription: FIFA Club World Cup
+homeLogo: /images/teams/PSG.png
+awayLogo: /images/teams/Bayern München.png
+homeTeam: PSG
+awayTeam: Bayern München
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---

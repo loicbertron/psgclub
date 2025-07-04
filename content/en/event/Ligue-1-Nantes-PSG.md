@@ -1,8 +1,8 @@
 ---
 title: Nantes - PSG
-date: 2025-04-22T14:45:00.000-04:00
+date: 2025-08-17T11:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-04-23T06:45:00.000Z
+expiryDate: 2025-08-18T03:00:00.000Z
 featureImage: images/event/Nantes-PSG-Insta.png
 definitiveDate: true
 categories: Match

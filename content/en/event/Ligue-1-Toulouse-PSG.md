@@ -1,8 +1,8 @@
 ---
 title: Toulouse - PSG
-date: 2025-02-15T15:05:00.000-05:00
+date: 2025-08-31T11:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-02-16T08:05:00.000Z
+expiryDate: 2025-09-01T03:00:00.000Z
 featureImage: images/event/Toulouse-PSG-Insta.png
 definitiveDate: true
 categories: Match

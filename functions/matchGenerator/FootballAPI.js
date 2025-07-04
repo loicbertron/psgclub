@@ -1,10 +1,12 @@
+// NE SURTOUT PAS SE CONNECTER DIRECTEMENT A FOOTBALLAPI, UTILISER RAPIDAPI AVEC COMPTE GOOGLE @gmail.com
+
 const Match = require('./Match')
 const Generator = require('./generator')
 const moment = require('moment');
 
 var myHeaders = new Headers();
-myHeaders.append("x-rapidapi-key", "240db03edc49d645a20e60ed69bd1239");
-myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
+myHeaders.append("x-rapidapi-key", "36a5aeb637msh9f0191ab0f64632p1a4e22jsneeb48d38444a");
+myHeaders.append("x-rapidapi-host", "api-football-v1.p.rapidapi.com");
 
 var requestOptions = {
     method: 'GET',
@@ -16,7 +18,7 @@ var requestOptions = {
 
 const getUpcomingGames = function () {
     return new Promise( (resolve, reject) => {
-        const url = new URL('https://v3.football.api-sports.io/fixtures')
+        const url = new URL('https://api-football-v1.p.rapidapi.com/v3/fixtures')
         const now = moment();
         const today = now.format('YYYY-MM-DD');
         const three_months_from_now = now.add(3, 'months').format('YYYY-MM-DD');
