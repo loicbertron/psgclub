@@ -17,32 +17,29 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <div class="swiper-container testimonial__slider">
-              <div class="swiper-wrapper">
-                {{ $section := .testimonial }}
-                {{ range $section }}
-                  <div class="swiper-slide testimonial__slider_item">
-                    {{ if .star }}
-                      <ul class="testimonial__slider_item-rating">
-                        {{ $rating := .star | int }}
-                        {{ $rating := sub $rating 1 }}
-                        {{ range $i, $sequence := (seq 5) }}
-                          {{ if le
-                            $i $rating
-                          }}
-                            <li><i class="fa fa-star"></i></li>
-                          {{ else }}
-                            <li><i class="fa fa-star inactive"></i></li>
-                          {{ end }}
+            <div class="testimonial__slider">
+              {{ $section := .testimonial }}
+              {{ range $section }}
+                <div class="testimonial__slider_item">
+                  {{ if .star }}
+                    <ul class="testimonial__slider_item-rating">
+                      {{ $rating := .star | int }}
+                      {{ $rating := sub $rating 1 }}
+                      {{ range $i, $sequence := (seq 5) }}
+                        {{ if le
+                          $i $rating
+                        }}
+                          <li><i class="fa fa-star"></i></li>
+                        {{ else }}
+                          <li><i class="fa fa-star inactive"></i></li>
                         {{ end }}
-                      </ul>
-                    {{ end }}
-                    <p class="testimonial__slider_item-content">{{ .comment | markdownify }}</p>
-                    <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .time }}</p>
-                  </div>
-                {{ end }}
-              </div>
-              <div class="swiper-pagination"></div>
+                      {{ end }}
+                    </ul>
+                  {{ end }}
+                  <p class="testimonial__slider_item-content">{{ .comment | markdownify }}</p>
+                  <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .time }}</p>
+                </div>
+              {{ end }}
             </div>
           </div>
         </div>

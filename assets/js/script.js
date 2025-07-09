@@ -1,38 +1,182 @@
+// TODO: don't import whole the modules, only import necessary function when possible
+/* TODO: remove jquery plugins and use their alternatives
+ * - remove their script tags from footer section
+ * - remove them from package.json
+ * - remove their styles from libraries.scss
+ */
+import "./vendor/slick-animation";
+import "waypoints/lib/jquery.waypoints";
+// TODO: this module is deprecated, use newer alternatives
 import { gsap, Power3 } from 'gsap';
+// TODO: remove this module and use lazysizes instead
+import "imagesloaded";
 
-document.addEventListener('DOMContentLoaded', () => {
+// Preloader
+
+function PageLoad() {
+  $("body").removeClass("hidden");
+  gsap.to($(".preloader-text"), 1, {
+    force3D: true,
+    opacity: 1,
+    y: 0,
+    delay: 0.2,
+    ease: Power3.easeOut,
+  });
+
+  var width = 100,
+    perfData = window.performance.timing,
+    EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+    time = parseInt((EstimatedTime / 500) % 50) * 70;
+
+  // Percentage Increment Animation
+  var PercentageID = $("#precent"),
+    start = 1,
+    end = 100,
+    durataion = time;
+  animateValue(PercentageID, start, end, durataion);
+
+  function animateValue(id, start, end, duration) {
+    var range = end - start,
+      current = start,
+      increment = end > start ? 1 : -1,
+      stepTime = Math.abs(Math.floor(duration / range)),
+      obj = $(id);
+
+    var timer = setInterval(function () {
+      current += increment;
+      $(obj).text(current);
+      if (current === end) {
+        clearInterval(timer);
+      }
+    }, stepTime);
+  }
+  // Fading Out Loadbar on Finised
+  setTimeout(function () {
+    gsap.to($(".percentage, .inner"), 0.7, {
+      force3D: true,
+      opacity: 0,
+      yPercent: -101,
+      ease: Power3.easeInOut,
+    });
+    gsap.to($(".preloader-wrap"), 0.7, {
+      force3D: true,
+      yPercent: -150,
+      delay: 0.2,
+      ease: Power3.easeInOut,
+    });
+  }, time);
+}
+$(document).ready(function () {
+  // preloder
+  PageLoad();
+
   // change-navigation-color
-  window.addEventListener('scroll', () => {
-    if (document.documentElement.scrollTop > 200) {
-      document.querySelector('.navbar').classList.add('nav__color__change');
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 200) {
+      $(".navbar").addClass("nav__color__change");
     } else {
-      document.querySelector('.navbar').classList.remove('nav__color__change');
+      $(".navbar").removeClass("nav__color__change");
     }
   });
 
   // Smooth scrolling
-  const scrollLinks = document.querySelectorAll('.scroll');
-  scrollLinks.forEach(link => {
-    link.addEventListener('click', e => {
-      const elem = document.querySelector(link.hash);
-      if (elem) {
-        e.preventDefault();
-        window.scrollTo({
-          top: elem.offsetTop,
-          behavior: 'smooth'
-        });
-      }
-    });
+  var scrollLink = $(".scroll");
+  scrollLink.click(function (e) {
+    let elem = $(this.hash);
+    if (elem.length) {
+      e.preventDefault();
+      $("body,html").animate(
+        {
+          scrollTop: elem.offset().top,
+        },
+        1000
+      );
+    }
   });
 
-  const navbarLinks = document.querySelectorAll('.navbar-nav>li>a');
-  navbarLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      const navbarCollapse = document.querySelector('.navbar-collapse');
-      if (navbarCollapse.classList.contains('show')) {
-        navbarCollapse.classList.remove('show');
-      }
-    });
+  $(".navbar-nav>li>a").on("click", function () {
+    $(".navbar-collapse").collapse("hide");
+  });
+
+  // service slider
+  $(".service__slider").slick({
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+    ],
+  });
+
+  // skill count
+  $(".skill__progress").waypoint(
+    function () {
+      $(".progress-value span").each(function () {
+        $(this)
+          .prop("Counter", 0)
+          .animate(
+            {
+              Counter: $(this).text(),
+            },
+            {
+              duration: 3000,
+              easing: "swing",
+              step: function (now) {
+                $(this).text(Math.ceil(now));
+              },
+            }
+          );
+      });
+      $(".skill__progress_item").addClass("js-animation");
+      this.destroy();
+    },
+    { offset: "80%" }
+  );
+
+  // Testimonial slider
+  $(".testimonial__slider").slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  });
+
+  var productGrid = $(".product-item-grid").masonry({
+    itemSelector: ".product-item",
+  });
+
+  productGrid.imagesLoaded().progress(function () {
+    productGrid.masonry("layout");
   });
 
   // blob animation
@@ -63,16 +207,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // G-Map
+/**
+ * Created by Kausar on 06/10/2016.
+ */
 window.marker = null;
 
 function initialize() {
   var map;
-  const mapElement = document.getElementById("map");
-  if (!mapElement) {
-    return;
-  }
-  var lat = mapElement.dataset.lat;
-  var long = mapElement.dataset.long;
+  var lat = $("#map").data("lat");
+  var long = $("#map").data("long");
+  console.log(lat, long);
   var mapCenter = new google.maps.LatLng(lat, long);
   var style = [
     {
@@ -269,7 +413,7 @@ function initialize() {
     },
   };
 
-  map = new google.maps.Map(mapElement, mapOptions);
+  map = new google.maps.Map(document.getElementById("map"), mapOptions);
   // SET THE MAP TYPE
   var mapType = new google.maps.StyledMapType(style, {
     name: "Grayscale",
@@ -277,7 +421,7 @@ function initialize() {
   map.mapTypes.set("grey", mapType);
   map.setMapTypeId("grey");
   //CREATE A CUSTOM PIN ICON
-  var marker_image = mapElement.dataset.pin;
+  var marker_image = $("#map").data("pin");
   var pinIcon = new google.maps.MarkerImage(marker_image, null, null, null, new google.maps.Size(25, 34));
   marker = new google.maps.Marker({
     position: mapCenter,
@@ -287,6 +431,6 @@ function initialize() {
   });
 }
 
-if (document.getElementById("map")) {
+if ($("#map").length > 0) {
   google.maps.event.addDomListener(window, "load", initialize);
 }
