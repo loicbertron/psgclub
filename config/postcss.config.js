@@ -13,7 +13,7 @@ module.exports = {
           ...(els.ids || []),
         ];
       },
-      safelist: [],
+      safelist: ["show", "dropdown-menu", "dropdown-item", "active"],
     }),
   ],
 };
