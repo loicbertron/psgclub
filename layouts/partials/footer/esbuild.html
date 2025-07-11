@@ -74,7 +74,5 @@
 {{- if eq (hugo.Environment) "development" -}}
   {{- $jsConfig = (dict "sourceMap" "inline" "target" "es2015" "params" $params) -}}
   {{- $js = $resource | js.Build $jsConfig | fingerprint -}}
-{{ end -}}
-
-
+{{- end -}}
 <script {{ with $load }}{{ . }}{{ end }} src="{{- $js.RelPermalink -}}" integrity="{{- $js.Data.Integrity -}}"></script>

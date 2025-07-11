@@ -33,6 +33,7 @@
     "build": "exec-bin node_modules/.bin/hugo --gc --minify",
     "build:lan": "exec-bin node_modules/.bin/hugo --gc --minify --baseURL=http://192.168.1.10:8080",
     "build:preview": "npm run build -D -F",
+    "build:test": "exec-bin node_modules/.bin/hugo --minify",
     "clean": "shx rm -rf public resources",
     "clean:git": "git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d",
     "clean:install": "shx rm -rf npm-lock.yaml node_modules ",
