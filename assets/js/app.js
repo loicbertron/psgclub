@@ -17,3 +17,5 @@ import "./script";
 import "./form-handler";
 
 import "./bootstrap";
+
+import "./mobile-nav-fix";

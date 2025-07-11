@@ -10,7 +10,7 @@
       {{ $img := $asset.Fit "400x400 webp" }}
       <img style="width: 50px; height: 50px; object-fit: contain" src="{{ $img.RelPermalink }}" alt="site-logo" />
     </a>
-    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+    <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
       <span class="navbar-toggler-icon"></span>
       <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
 
       </ul>
 <div class="navbar-nav">
-  <li id="language-switch" class="nav-item dropdown">
+  <li id="language-switch" class="nav-item dropdown" data-bs-auto-close="outside">
     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
       <i class="fa fa-globe" aria-hidden="true"></i> {{ .Page.Lang }}
     </a>
