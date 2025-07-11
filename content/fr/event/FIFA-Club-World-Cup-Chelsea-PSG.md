@@ -1,16 +1,16 @@
 ---
-title: Toulouse - PSG
-date: 2025-08-31T09:00:00.000-06:00
+title: Chelsea - PSG
+date: 2025-07-13T13:00:00.000-06:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-09-01T03:00:00.000Z
-featureImage: images/event/Toulouse-PSG-Insta.png
+expiryDate: 2025-07-14T07:00:00.000Z
+featureImage: images/event/Chelsea-PSG-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: Ligue 1
-homeLogo: /images/teams/Toulouse.png
+shortDescription: FIFA Club World Cup
+homeLogo: /images/teams/Chelsea.png
 awayLogo: /images/teams/PSG.png
-homeTeam: Toulouse
+homeTeam: Chelsea
 awayTeam: PSG
 location: Union Française de Montréal
 link: https://facebook.com/psgclubmontreal/events

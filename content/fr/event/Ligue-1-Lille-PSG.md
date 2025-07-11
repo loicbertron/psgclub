@@ -1,8 +1,8 @@
 ---
 title: Lille - PSG
-date: 2024-09-01T14:45:00.000-04:00
+date: 2025-10-05T09:00:00.000-06:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-09-02T06:45:00.000Z
+expiryDate: 2025-10-06T03:00:00.000Z
 featureImage: images/event/Lille-PSG-Insta.png
 definitiveDate: true
 categories: Match
