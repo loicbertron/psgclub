@@ -10,8 +10,10 @@ listen();
 import "lazysizes";
 
 // global alert
-import "./assets/js/alert";
+import "./alert";
 
 import "./script";
 
 import "./form-handler";
+
+import "./bootstrap";
