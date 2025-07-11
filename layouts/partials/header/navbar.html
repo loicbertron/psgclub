@@ -38,7 +38,6 @@
 
       </ul>
 <div class="navbar-nav">
-  {{ if hugo.IsMultilingual }}
   <li id="language-switch" class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
       <i class="fa fa-globe" aria-hidden="true"></i> {{ .Page.Lang }}
@@ -60,7 +59,6 @@
       {{ end }}
     </ul>
   </li>
-  {{ end }}
 </div>      
       <div class="navbar-nav">
         {{ $joinPath := printf "/join" | printf "%s%s" .Lang  }}
