@@ -1,9 +1,9 @@
 ---
 title: Lorient - PSG
-date: 2024-04-24T13:00:00.000-04:00
+date: 2025-10-29T11:00:00.000-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2024-04-25T05:00:00.000Z
-featureImage: images/event/Lorient-PSG-Insta.png
+expiryDate: 2025-10-30T03:00:00.000Z
+featureImage: images/event/Lorient-PSG-2025-10-29-Insta.png
 definitiveDate: true
 categories: Match
 eventType: match
@@ -12,10 +12,10 @@ homeLogo: /images/teams/Lorient.png
 awayLogo: /images/teams/PSG.png
 homeTeam: Lorient
 awayTeam: PSG
-location: Union Française de Montréal
+location: Maison France de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---
 
-Venez vivre le match du PSG à l'Union Française avec le PSG Club Montréal.
+Venez vivre le match du PSG à la Maison France avec le PSG Club Montréal.
 
 En plus du match sur grand écran et notre offre de bar, vous courrez la chance de gagner des lots PSG et PSG Club Montréal en participant au jeux organisés, et vous pourrez vous immerger dans l'ambiance du PSG Club Montréal, en chantant et supportant le PSG avec nous !

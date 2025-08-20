@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bonnet on PSG Club Montréal</title>
+    <link>http://127.0.0.1:1313/fr/categories/bonnet/</link>
+    <description>Recent content in Bonnet on PSG Club Montréal</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Sat, 12 Aug 2023 18:19:35 +0600</lastBuildDate>
+    <atom:link href="http://127.0.0.1:1313/fr/categories/bonnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beanie</title>
+      <link>http://127.0.0.1:1313/fr/product/product-3/</link>
+      <pubDate>Sat, 12 Aug 2023 18:19:35 +0600</pubDate>
+      <guid>http://127.0.0.1:1313/fr/product/product-3/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on PSG Club Montréal</title>
+    <link>http://127.0.0.1:1313/fr/categories/</link>
+    <description>Recent content in Categories on PSG Club Montréal</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Sun, 09 Nov 2025 10:00:00 -0500</lastBuildDate>
+    <atom:link href="http://127.0.0.1:1313/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Match</title>
+      <link>http://127.0.0.1:1313/fr/categories/match/</link>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 -0400</pubDate>
+      <guid>http://127.0.0.1:1313/fr/categories/match/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://127.0.0.1:1313/fr/categories/blog/</link>
+      <pubDate>Wed, 30 Aug 2023 12:49:27 -0400</pubDate>
+      <guid>http://127.0.0.1:1313/fr/categories/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Casquette, Snapback</title>
+      <link>http://127.0.0.1:1313/fr/categories/casquette-snapback/</link>
+      <pubDate>Tue, 15 Aug 2023 12:49:27 +0600</pubDate>
+      <guid>http://127.0.0.1:1313/fr/categories/casquette-snapback/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bonnet</title>
+      <link>http://127.0.0.1:1313/fr/categories/bonnet/</link>
+      <pubDate>Sat, 12 Aug 2023 18:19:35 +0600</pubDate>
+      <guid>http://127.0.0.1:1313/fr/categories/bonnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tee Shirt</title>
+      <link>http://127.0.0.1:1313/fr/categories/tee-shirt/</link>
+      <pubDate>Sat, 12 Aug 2023 12:13:40 +0000</pubDate>
+      <guid>http://127.0.0.1:1313/fr/categories/tee-shirt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hoodie</title>
+      <link>http://127.0.0.1:1313/fr/categories/hoodie/</link>
+      <pubDate>Sat, 12 Aug 2023 18:07:16 +0600</pubDate>
+      <guid>http://127.0.0.1:1313/fr/categories/hoodie/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

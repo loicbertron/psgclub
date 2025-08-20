@@ -8,6 +8,9 @@ main:
   - name: menu-association
     url: "#about"
     weight: 3
+  - name: menu-blog
+    url: "blog"
+    weight: 4
 sitemap:
   - name: menu-home
     url: ""
@@ -18,4 +21,7 @@ sitemap:
   - name: menu-event
     url: "event"
     weight: 3
+  - name: menu-blog
+    url: "blog"
+    weight: 4
 

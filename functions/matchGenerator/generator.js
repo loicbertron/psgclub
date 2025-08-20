@@ -87,7 +87,7 @@ const getTemplate = async function (network ="instagram") {
 
 const generateInstagramImage = async function (htmlTemplate, m) {
     return new Promise( (resolve) => {
-        const path = folders.eventImages + m.homeTeam + "-" + m.awayTeam + "-Insta.png";
+        const path = folders.eventImages + m.homeTeam + "-" + m.awayTeam + "-"+m.MontrealISO.substring(0, 10)+"-Insta.png";
 
         nodeHtmlToImage({
             output: path,
@@ -103,7 +103,7 @@ const generateInstagramImage = async function (htmlTemplate, m) {
 
 const generateFacebookImage = async function (htmlTemplate, m) {
     return new Promise( (resolve) => {
-        const path = folders.eventImages + m.homeTeam + "-" + m.awayTeam +"-FB.png";
+        const path = folders.eventImages + m.homeTeam + "-" + m.awayTeam +"-"+m.MontrealISO.substring(0, 10)+"-FB.png";
         nodeHtmlToImage({
             output: path,
             html: htmlTemplate,
@@ -125,7 +125,7 @@ const generateMarkdown = function (m) {
         "date: "+ m.MontrealISO +"\n" +
         "publishdate: 2024-01-01T12:00:00.000-04:00\n" +
         "expiryDate: "+ expiryTime.toISOString() +"\n" +
-        "featureImage: images/event/"+m.homeTeam + '-' + m.awayTeam +"-Insta.png\n" +
+        "featureImage: images/event/"+m.homeTeam + '-' + m.awayTeam +"-"+m.MontrealISO.substring(0, 10)+"-Insta.png\n" +
         "definitiveDate: true\n" +
         "categories: Match\n" +
         "eventType: match\n" +
@@ -134,15 +134,15 @@ const generateMarkdown = function (m) {
         "awayLogo: /images/teams/"+m.awayTeam+".png\n" +
         "homeTeam: "+m.homeTeam+"\n" +
         "awayTeam: "+m.awayTeam+"\n" +
-        "location: Union Française de Montréal\n" +
+        "location: Maison France de Montréal\n" +
         "link: https://facebook.com/psgclubmontreal/events\n" +
         "---\n" +
         "\n";
 
-    const en = head + "Come and experience the PSG match at the Union Française with the PSG Club Montreal.\n\n" +
+    const en = head + "Come and experience the PSG match at the French House with the PSG Club Montreal.\n\n" +
         "In addition to the match on the big screen and our bar offer, you will have the chance to win PSG and PSG Club Montreal prizes by participating in the organized games, and you will be able to immerse yourself in the atmosphere of the PSG Club Montreal, singing and supporting PSG with us!\n"
 
-    const fr = head + "Venez vivre le match du PSG à l'Union Française avec le PSG Club Montréal.\n\n" +
+    const fr = head + "Venez vivre le match du PSG à la Maison France avec le PSG Club Montréal.\n\n" +
         "En plus du match sur grand écran et notre offre de bar, vous courrez la chance de gagner des lots PSG et PSG Club Montréal en participant au jeux organisés, et vous pourrez vous immerger dans l'ambiance du PSG Club Montréal, en chantant et supportant le PSG avec nous !\n"
 
     // console.log(fr);

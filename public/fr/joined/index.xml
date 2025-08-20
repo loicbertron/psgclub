@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bienvenue au PSG Club Montreal on PSG Club Montréal</title>
+    <link>http://127.0.0.1:1313/fr/joined/</link>
+    <description>Recent content in Bienvenue au PSG Club Montreal on PSG Club Montréal</description>
+    <generator>Hugo</generator>
+    <language>fr-CA</language>
+    <atom:link href="http://127.0.0.1:1313/fr/joined/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

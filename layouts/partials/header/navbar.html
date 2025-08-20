@@ -22,7 +22,7 @@
         {{ range $index, $element := $menu }}
           <li class="nav-item">
             <a
-              href="{{ $.Site.BaseURL }}{{ .URL }}"
+              href="{{ $.Site.BaseURL }}{{ .URL | relLangURL }}"
               class="nav-link text-dark text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}"
               >{{ i18n .Name }}</a
             >

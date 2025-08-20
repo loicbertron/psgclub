@@ -30,3 +30,5 @@
   translation : "Acceuil"
 - id : menu-association
   translation : "Association"
+- id : menu-blog
+  translation : "Blog"

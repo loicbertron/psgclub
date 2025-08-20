@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PSG Club Montreal on PSG Club Montréal</title>
+    <link>http://127.0.0.1:1313/fr/</link>
+    <description>Recent content in PSG Club Montreal on PSG Club Montréal</description>
+    
+    <language>fr-CA</language>
+    <copyright>© PSG Club Montreal 2023</copyright>
+    <lastBuildDate>Sun, 09 Nov 2025 10:00:00 -0500</lastBuildDate>
+    
+        <atom:link href="http://127.0.0.1:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Events</title>
+      <link>http://127.0.0.1:1313/fr/event/</link>
+      <pubDate>Sun, 09 Nov 2025 10:00:00 -0500</pubDate>
+      
+      <guid>http://127.0.0.1:1313/fr/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recents Article</title>
+      <link>http://127.0.0.1:1313/fr/blog/</link>
+      <pubDate>Wed, 30 Aug 2023 12:49:27 -0400</pubDate>
+      
+      <guid>http://127.0.0.1:1313/fr/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Products</title>
+      <link>http://127.0.0.1:1313/fr/product/</link>
+      <pubDate>Tue, 15 Aug 2023 12:49:27 +0600</pubDate>
+      
+      <guid>http://127.0.0.1:1313/fr/product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bienvenue au PSG Club Montreal</title>
+      <link>http://127.0.0.1:1313/fr/joined/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1313/fr/joined/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rejoins le PSG Club Montreal</title>
+      <link>http://127.0.0.1:1313/fr/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1313/fr/join/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
