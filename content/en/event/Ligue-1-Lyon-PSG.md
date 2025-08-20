@@ -4,6 +4,8 @@ date: 2025-11-09T10:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-11-10T03:00:00.000Z
 featureImage: images/event/Lyon-PSG-2025-11-09-Insta.png
+instagramImage: images/event/Lyon-PSG-2025-11-09-Insta.png
+facebookImage: images/event/Lyon-PSG-2025-11-09-FB.png
 definitiveDate: true
 categories: Match
 eventType: match

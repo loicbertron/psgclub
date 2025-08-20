@@ -4,6 +4,8 @@ date: 2025-10-19T11:00:00-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-10-20T03:00:00.000Z
 featureImage: images/event/PSG-Strasbourg-2025-10-19-Insta.png
+instagramImage: images/event/PSG-Strasbourg-2025-10-19-Insta.png
+facebookImage: images/event/PSG-Strasbourg-2025-10-19-FB.png
 definitiveDate: true
 categories: Match
 eventType: match

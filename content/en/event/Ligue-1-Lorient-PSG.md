@@ -4,6 +4,8 @@ date: 2025-10-29T11:00:00-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-10-30T03:00:00.000Z
 featureImage: images/event/Lorient-PSG-2025-10-29-Insta.png
+instagramImage: images/event/Lorient-PSG-2025-10-29-Insta.png
+facebookImage: images/event/Lorient-PSG-2025-10-29-FB.png
 definitiveDate: true
 categories: Match
 eventType: match

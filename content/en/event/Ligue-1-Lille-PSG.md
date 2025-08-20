@@ -4,6 +4,8 @@ date: 2025-10-05T11:00:00-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-10-06T03:00:00.000Z
 featureImage: images/event/Lille-PSG-2025-10-05-Insta.png
+instagramImage: images/event/Lille-PSG-2025-10-05-Insta.png
+facebookImage: images/event/Lille-PSG-2025-10-05-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
