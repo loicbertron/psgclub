@@ -1,6 +1,6 @@
 ---
 title: PSG - Angers
-date: 2025-08-22T18:45:00.000+00:00
+date: 2025-08-22T14:45:00-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-08-23T06:45:00.000Z
 featureImage: images/event/PSG-Angers-2025-08-22-Insta.png
