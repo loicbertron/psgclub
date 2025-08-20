@@ -1,10 +1,13 @@
+const moment = require('moment-timezone');
+
 const Match = class {
     constructor(UTCDate, homeTeam, awayTeam, homeLogo, awayLogo, status, competition) {
         this.UTCDate = UTCDate;
-        this.Date = new Date(Date.parse(UTCDate));
-        this.MontrealDateString = this.Date.toLocaleDateString("fr-CA", {weekday: 'long', month: 'long', day: 'numeric', timeZone: "America/New_York"});
-        this.MontrealTimeString = this.Date.toLocaleTimeString("en-CA", {hour: '2-digit', minute: '2-digit',   hour12: false, timeZone: 'America/New_York' })
-        this.MontrealISO = this.getLocalISOString();
+        const montrealDate = moment.tz(UTCDate, "America/New_York");
+        this.Date = new Date(Date.parse(UTCDate)); // Keep this for expiryDate calculation for now
+        this.MontrealDateString = montrealDate.format("dddd, MMMM D");
+        this.MontrealTimeString = montrealDate.format("HH:mm");
+        this.MontrealISO = montrealDate.format(); // This will produce the correct ISO 8601 string with offset
         this.homeTeam = homeTeam === "Paris Saint Germain" ? "PSG" : homeTeam;
         this.awayTeam = awayTeam === "Paris Saint Germain" ? "PSG" : awayTeam;
         this.homeLogo = homeLogo;
@@ -12,15 +15,6 @@ const Match = class {
         this.status = status;
         this.competition = competition
     }
-
-    getLocalISOString = function() {
-        const offset = this.Date.getTimezoneOffset()
-        const offsetAbs = Math.abs(offset)
-        const isoString = new Date(this.Date.getTime() - offset * 60 * 1000).toISOString()
-        return `${isoString.slice(0, -1)}${offset > 0 ? '-' : '+'}${String(Math.floor(offsetAbs / 60)).padStart(2, '0')}:${String(offsetAbs % 60).padStart(2, '0')}`
-    }
-
-
 }
 
 module.exports = Match;
