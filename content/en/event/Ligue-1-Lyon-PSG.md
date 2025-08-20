@@ -1,6 +1,6 @@
 ---
 title: Lyon - PSG
-date: 2025-11-09T10:00:00.000-05:00
+date: 2025-11-09T15:00:00.000+00:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-11-10T03:00:00.000Z
 featureImage: images/event/Lyon-PSG-2025-11-09-Insta.png

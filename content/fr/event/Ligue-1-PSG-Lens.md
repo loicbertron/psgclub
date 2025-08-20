@@ -1,6 +1,6 @@
 ---
 title: PSG - Lens
-date: 2025-09-14T11:00:00.000-04:00
+date: 2025-09-14T15:00:00.000+00:00
 publishdate: 2024-01-01T12:00:00.000-04:00
 expiryDate: 2025-09-15T03:00:00.000Z
 featureImage: images/event/PSG-Lens-2025-09-14-Insta.png
