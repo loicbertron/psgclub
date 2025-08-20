@@ -34,13 +34,7 @@
               {{ partial "event/otherEventBlock.html" . }}
             {{ end }}
           </div>
-          {{ if .Params.featureImage }}
-          <div class="case-details-thumb mb-5">
-            {{ $asset := resources.Get .Params.featureImage }}
-            {{ $img := $asset.Resize "1000x webp" }}
-            <img src="{{ $img.RelPermalink }}" alt="case-details" />
-          </div>
-          {{ end }}
+    
 
           {{ if .Params.instagramImage }}
           <div class="case-details-thumb mb-5">
