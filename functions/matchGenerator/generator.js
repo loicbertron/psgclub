@@ -126,13 +126,18 @@ const generateFacebookImage = async function (htmlTemplate, m) {
 const generateMarkdown = function (m) {
     let currentTime = m.Date.getTime();
     let expiryTime = new Date(currentTime + 12 * 60 * 60 * 1000);
+    const imageName = m.homeTeam + '-' + m.awayTeam + "-" + m.MontrealISO.substring(0, 10);
+    const instaImage = "images/event/" + imageName + "-Insta.png";
+    const fbImage = "images/event/" + imageName + "-FB.png";
 
     const head = "---\n" +
         "title: "+ m.homeTeam + " - " + m.awayTeam + "\n" +
         "date: "+ m.MontrealISO +"\n" +
         "publishdate: 2024-01-01T12:00:00.000-04:00\n" +
         "expiryDate: "+ expiryTime.toISOString() +"\n" +
-        "featureImage: images/event/"+m.homeTeam + '-' + m.awayTeam +"-"+m.MontrealISO.substring(0, 10)+"-Insta.png\n" +
+        "featureImage: "+ instaImage +"\n" +
+        "instagramImage: "+ instaImage +"\n" +
+        "facebookImage: "+ fbImage +"\n" +
         "definitiveDate: true\n" +
         "categories: Match\n" +
         "eventType: match\n" +

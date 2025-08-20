@@ -34,11 +34,31 @@
               {{ partial "event/otherEventBlock.html" . }}
             {{ end }}
           </div>
-          {{ if .Params.postImage }}
+          {{ if .Params.featureImage }}
           <div class="case-details-thumb mb-5">
-            {{ $asset := resources.Get .Params.postImage }}
+            {{ $asset := resources.Get .Params.featureImage }}
             {{ $img := $asset.Resize "1000x webp" }}
             <img src="{{ $img.RelPermalink }}" alt="case-details" />
+          </div>
+          {{ end }}
+
+          {{ if .Params.instagramImage }}
+          <div class="case-details-thumb mb-5">
+            {{ $asset := resources.Get .Params.instagramImage }}
+            {{ $thumbnail := $asset.Resize "300x webp" }}
+            <a href="{{ $asset.RelPermalink }}" target="_blank">
+              <img src="{{ $thumbnail.RelPermalink }}" alt="Instagram Image Thumbnail" />
+            </a>
+          </div>
+          {{ end }}
+
+          {{ if .Params.facebookImage }}
+          <div class="case-details-thumb mb-5">
+            {{ $asset := resources.Get .Params.facebookImage }}
+            {{ $thumbnail := $asset.Resize "300x webp" }}
+            <a href="{{ $asset.RelPermalink }}" target="_blank">
+              <img src="{{ $thumbnail.RelPermalink }}" alt="Facebook Image Thumbnail" />
+            </a>
           </div>
           {{ end }}
 

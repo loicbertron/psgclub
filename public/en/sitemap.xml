@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/categories/</loc>
-    <lastmod>2025-11-09T15:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -21,7 +21,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/</loc>
-    <lastmod>2025-11-09T15:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-lyon-psg/</loc>
-    <lastmod>2025-11-09T15:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -55,7 +55,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/categories/match/</loc>
-    <lastmod>2025-11-09T15:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -72,7 +72,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/</loc>
-    <lastmod>2025-11-09T15:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -89,7 +89,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-psg-nice/</loc>
-    <lastmod>2025-11-02T15:00:00+00:00</lastmod>
+    <lastmod>2025-11-02T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -106,7 +106,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-lorient-psg/</loc>
-    <lastmod>2025-10-29T15:00:00+00:00</lastmod>
+    <lastmod>2025-10-29T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -123,7 +123,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-stade-brestois-29-psg/</loc>
-    <lastmod>2025-10-26T15:00:00+00:00</lastmod>
+    <lastmod>2025-10-26T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -140,7 +140,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-psg-strasbourg/</loc>
-    <lastmod>2025-10-19T15:00:00+00:00</lastmod>
+    <lastmod>2025-10-19T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -157,7 +157,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-lille-psg/</loc>
-    <lastmod>2025-10-05T15:00:00+00:00</lastmod>
+    <lastmod>2025-10-05T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -174,7 +174,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-psg-auxerre/</loc>
-    <lastmod>2025-09-28T15:00:00+00:00</lastmod>
+    <lastmod>2025-09-28T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -191,7 +191,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-marseille-psg/</loc>
-    <lastmod>2025-09-21T15:00:00+00:00</lastmod>
+    <lastmod>2025-09-21T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -208,7 +208,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-psg-lens/</loc>
-    <lastmod>2025-09-14T15:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -225,7 +225,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-toulouse-psg/</loc>
-    <lastmod>2025-08-30T19:05:00+00:00</lastmod>
+    <lastmod>2025-08-30T15:05:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -242,7 +242,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/en/event/ligue-1-psg-angers/</loc>
-    <lastmod>2025-08-22T18:45:00+00:00</lastmod>
+    <lastmod>2025-08-22T14:45:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
