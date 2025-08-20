@@ -38,7 +38,8 @@
 
       </ul>
       <ul class="navbar-nav">
-        <li id="language-switch" class="nav-item dropdown" data-bs-auto-close="outside">
+        <!-- Language switcher for desktop -->
+        <li id="language-switch-desktop" class="nav-item dropdown d-none d-lg-block" data-bs-auto-close="outside">
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-globe" aria-hidden="true"></i> {{ .Page.Lang }}
           </a>
@@ -59,6 +60,23 @@
             {{ end }}
           </ul>
         </li>
+
+        <!-- Language switcher for mobile -->
+        {{ $siteLanguages := .Site.Languages}}
+        {{ $pageLang := .Page.Lang}}
+        {{ range .Page.AllTranslations }}
+        {{ $translation := .}}
+        {{ range $siteLanguages }}
+        {{ if eq $translation.Lang .Lang }}
+        {{ if eq $pageLang .Lang}}
+        <li class="nav-item d-lg-none"><a href="{{ $translation.RelPermalink }}" class="nav-link text-dark text-sm-center p-2 active">{{ .LanguageName }}</a></li>
+        {{ else }}
+        <li class="nav-item d-lg-none"><a href="{{ $translation.RelPermalink }}" class="nav-link text-dark text-sm-center p-2">{{ .LanguageName }}</a></li>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+
         <li class="nav-item">
           {{ $joinPath := printf "/join" | printf "%s%s" .Lang  }}
           <a href="{{ $joinPath | safeURL | relURL }}" class="btn btn-primary btn-zoom hire_button">{{ i18n "join" }}</a>
