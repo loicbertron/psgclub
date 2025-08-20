@@ -21,13 +21,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Chrome for Puppeteer
-        run: npx puppeteer browsers install chrome
+      - name: Install and cache Puppeteer
+        id: puppeteer
+        uses: build-push-action/puppeteer@v1
 
       - name: Run script
         working-directory: ./functions/matchGenerator
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.puppeteer.outputs.executablePath }}
         run: node FootballAPI.js
 
       - name: Commit and push changes

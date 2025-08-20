@@ -107,7 +107,8 @@ const generateFacebookImage = async function (htmlTemplate, m) {
         nodeHtmlToImage({
             output: path,
             html: htmlTemplate,
-            content: { backgroundImage: getBackgroundImage(m.competition, "facebook"), homeTeam: m.homeTeam, homeLogo: m.homeLogo, awayTeam: m.awayTeam, awayLogo: m.awayLogo, date: m.MontrealDateString, time: m.MontrealTimeString }
+            content: { backgroundImage: getBackgroundImage(m.competition, "facebook"), homeTeam: m.homeTeam, homeLogo: m.homeLogo, awayTeam: m.awayTeam, awayLogo: m.awayLogo, date: m.MontrealDateString, time: m.MontrealTimeString },
+            puppeteerArgs
         })
             .then(() => {
                 console.log('The image was created successfully!')
