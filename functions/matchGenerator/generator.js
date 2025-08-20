@@ -3,6 +3,11 @@ const Match = require('./Match');
 const nodeHtmlToImage = require('node-html-to-image')
 const client = require('https');
 
+const puppeteerArgs = process.env.PUPPETEER_EXECUTABLE_PATH ? {
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+} : {};
+
 const folders = {
     eventImages: "../../assets/images/event/",
     eventPost: {
