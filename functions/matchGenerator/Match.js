@@ -1,9 +1,11 @@
 const moment = require('moment-timezone');
+require('moment/locale/fr'); // Load French locale
 
 const Match = class {
     constructor(UTCDate, homeTeam, awayTeam, homeLogo, awayLogo, status, competition) {
         this.UTCDate = UTCDate;
         const montrealDate = moment.tz(UTCDate, "America/New_York");
+        montrealDate.locale('fr'); // Set locale to French
         this.Date = new Date(Date.parse(UTCDate)); // Keep this for expiryDate calculation for now
         this.MontrealDateString = montrealDate.format("dddd, MMMM D");
         this.MontrealTimeString = montrealDate.format("HH:mm");
