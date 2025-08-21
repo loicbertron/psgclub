@@ -7,7 +7,7 @@ const Match = class {
         const montrealDate = moment.tz(UTCDate, "America/New_York");
         montrealDate.locale('fr'); // Set locale to French
         this.Date = new Date(Date.parse(UTCDate)); // Keep this for expiryDate calculation for now
-        this.MontrealDateString = montrealDate.format("dddd, MMMM D");
+        this.MontrealDateString = montrealDate.format("dddd D MMMM");
         this.MontrealTimeString = montrealDate.format("HH:mm");
         this.MontrealISO = montrealDate.format(); // This will produce the correct ISO 8601 string with offset
         this.homeTeam = homeTeam === "Paris Saint Germain" ? "PSG" : homeTeam;
