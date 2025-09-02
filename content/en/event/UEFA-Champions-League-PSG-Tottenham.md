@@ -1,19 +1,19 @@
 ---
-title: Barcelona - PSG
-date: 2025-10-01T15:00:00-04:00
+title: PSG - Tottenham
+date: 2025-11-26T15:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-10-02T07:00:00.000Z
-featureImage: images/event/Barcelona-PSG-2025-10-01-Insta.png
-instagramImage: images/event/Barcelona-PSG-2025-10-01-Insta.png
-facebookImage: images/event/Barcelona-PSG-2025-10-01-FB.png
+expiryDate: 2025-11-27T08:00:00.000Z
+featureImage: images/event/PSG-Tottenham-2025-11-26-Insta.png
+instagramImage: images/event/PSG-Tottenham-2025-11-26-Insta.png
+facebookImage: images/event/PSG-Tottenham-2025-11-26-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
 shortDescription: UEFA Champions League
-homeLogo: /images/teams/Barcelona.png
-awayLogo: /images/teams/PSG.png
-homeTeam: Barcelona
-awayTeam: PSG
+homeLogo: /images/teams/PSG.png
+awayLogo: /images/teams/Tottenham.png
+homeTeam: PSG
+awayTeam: Tottenham
 location: Maison France de Montréal
 link: https://facebook.com/psgclubmontreal/events
 ---
