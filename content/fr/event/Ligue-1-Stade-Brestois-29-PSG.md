@@ -1,11 +1,11 @@
 ---
 title: Stade Brestois 29 - PSG
-date: 2025-10-26T11:00:00-04:00
+date: 2025-10-25T11:00:00-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-10-27T03:00:00.000Z
-featureImage: images/event/Stade Brestois 29-PSG-2025-10-26-Insta.png
-instagramImage: images/event/Stade Brestois 29-PSG-2025-10-26-Insta.png
-facebookImage: images/event/Stade Brestois 29-PSG-2025-10-26-FB.png
+expiryDate: 2025-10-26T03:00:00.000Z
+featureImage: images/event/Stade Brestois 29-PSG-2025-10-25-Insta.png
+instagramImage: images/event/Stade Brestois 29-PSG-2025-10-25-Insta.png
+facebookImage: images/event/Stade Brestois 29-PSG-2025-10-25-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
