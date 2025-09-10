@@ -1,18 +1,18 @@
 ---
-title: Lyon - PSG
-date: 2025-11-09T14:45:00-05:00
+title: Athletic Club - PSG
+date: 2025-12-10T15:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-11-10T07:45:00.000Z
-featureImage: images/event/Lyon-PSG-2025-11-09-Insta.png
-instagramImage: images/event/Lyon-PSG-2025-11-09-Insta.png
-facebookImage: images/event/Lyon-PSG-2025-11-09-FB.png
+expiryDate: 2025-12-11T08:00:00.000Z
+featureImage: images/event/Athletic Club-PSG-2025-12-10-Insta.png
+instagramImage: images/event/Athletic Club-PSG-2025-12-10-Insta.png
+facebookImage: images/event/Athletic Club-PSG-2025-12-10-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
-shortDescription: Ligue 1
-homeLogo: /images/teams/Lyon.png
+shortDescription: UEFA Champions League
+homeLogo: /images/teams/Athletic Club.png
 awayLogo: /images/teams/PSG.png
-homeTeam: Lyon
+homeTeam: Athletic Club
 awayTeam: PSG
 location: Maison France de Montréal
 link: https://facebook.com/psgclubmontreal/events
