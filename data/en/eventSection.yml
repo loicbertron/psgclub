@@ -5,4 +5,6 @@ title: >
 
   Find here all the upcoming events of the PSG Club Montreal
 
+buttonName: See all events
+buttonTarget: event
 _template: event_template

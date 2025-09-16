@@ -4,4 +4,6 @@ title: >
   ## Événements à venir
 
   Retrouvez ici tous les événements à venir du PSG Club Montréal
+buttonName: Voir tous les événements
+buttonTarget: event
 _template: event_template
