@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/categories/</loc>
-    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
+    <lastmod>2025-12-14T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -21,7 +21,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/event/</loc>
-    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
+    <lastmod>2025-12-14T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -37,25 +37,8 @@
   </url>
   
   <url>
-    <loc>http://127.0.0.1:1313/fr/event/ligue-1-lyon-psg/</loc>
-    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://127.0.0.1:1313/en/event/ligue-1-lyon-psg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://127.0.0.1:1313/fr/event/ligue-1-lyon-psg/"
-                />
-  </url>
-  
-  <url>
     <loc>http://127.0.0.1:1313/fr/categories/match/</loc>
-    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
+    <lastmod>2025-12-14T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -71,8 +54,25 @@
   </url>
   
   <url>
+    <loc>http://127.0.0.1:1313/fr/event/ligue-1-metz-psg/</loc>
+    <lastmod>2025-12-14T10:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/ligue-1-metz-psg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/ligue-1-metz-psg/"
+                />
+  </url>
+  
+  <url>
     <loc>http://127.0.0.1:1313/fr/</loc>
-    <lastmod>2025-11-09T10:00:00-05:00</lastmod>
+    <lastmod>2025-12-14T10:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -88,8 +88,127 @@
   </url>
   
   <url>
+    <loc>http://127.0.0.1:1313/fr/event/uefa-champions-league-athletic-club-psg/</loc>
+    <lastmod>2025-12-10T15:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/uefa-champions-league-athletic-club-psg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/uefa-champions-league-athletic-club-psg/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-rennes/</loc>
+    <lastmod>2025-12-07T10:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/ligue-1-psg-rennes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/ligue-1-psg-rennes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/event/ligue-1-monaco-psg/</loc>
+    <lastmod>2025-11-30T10:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/ligue-1-monaco-psg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/ligue-1-monaco-psg/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/event/uefa-champions-league-psg-tottenham/</loc>
+    <lastmod>2025-11-26T15:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/uefa-champions-league-psg-tottenham/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/uefa-champions-league-psg-tottenham/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-le-havre/</loc>
+    <lastmod>2025-11-23T10:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/ligue-1-psg-le-havre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/ligue-1-psg-le-havre/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/event/ligue-1-lyon-psg/</loc>
+    <lastmod>2025-11-09T14:45:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/ligue-1-lyon-psg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/ligue-1-lyon-psg/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/event/uefa-champions-league-psg-bayern-m-nchen/</loc>
+    <lastmod>2025-11-04T15:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/uefa-champions-league-psg-bayern-m-nchen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/uefa-champions-league-psg-bayern-m-nchen/"
+                />
+  </url>
+  
+  <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-nice/</loc>
-    <lastmod>2025-11-02T10:00:00-05:00</lastmod>
+    <lastmod>2025-11-01T12:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -106,7 +225,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-lorient-psg/</loc>
-    <lastmod>2025-10-29T11:00:00-04:00</lastmod>
+    <lastmod>2025-10-29T14:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -123,7 +242,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-stade-brestois-29-psg/</loc>
-    <lastmod>2025-10-26T11:00:00-04:00</lastmod>
+    <lastmod>2025-10-25T11:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -139,8 +258,25 @@
   </url>
   
   <url>
+    <loc>http://127.0.0.1:1313/fr/event/uefa-champions-league-bayer-leverkusen-psg/</loc>
+    <lastmod>2025-10-21T15:00:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/uefa-champions-league-bayer-leverkusen-psg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/uefa-champions-league-bayer-leverkusen-psg/"
+                />
+  </url>
+  
+  <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-strasbourg/</loc>
-    <lastmod>2025-10-19T11:00:00-04:00</lastmod>
+    <lastmod>2025-10-17T14:45:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -157,7 +293,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-lille-psg/</loc>
-    <lastmod>2025-10-05T11:00:00-04:00</lastmod>
+    <lastmod>2025-10-05T14:45:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -173,8 +309,25 @@
   </url>
   
   <url>
+    <loc>http://127.0.0.1:1313/fr/event/uefa-champions-league-barcelona-psg/</loc>
+    <lastmod>2025-10-01T15:00:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/event/uefa-champions-league-barcelona-psg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/event/uefa-champions-league-barcelona-psg/"
+                />
+  </url>
+  
+  <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-auxerre/</loc>
-    <lastmod>2025-09-28T11:00:00-04:00</lastmod>
+    <lastmod>2025-09-27T15:05:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -191,7 +344,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/event/ligue-1-marseille-psg/</loc>
-    <lastmod>2025-09-21T11:00:00-04:00</lastmod>
+    <lastmod>2025-09-21T14:45:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -207,76 +360,25 @@
   </url>
   
   <url>
-    <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-lens/</loc>
-    <lastmod>2025-09-14T11:00:00-04:00</lastmod>
+    <loc>http://127.0.0.1:1313/fr/event/uefa-champions-league-psg-atalanta/</loc>
+    <lastmod>2025-09-17T15:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://127.0.0.1:1313/en/event/ligue-1-psg-lens/"
+                href="http://127.0.0.1:1313/en/event/uefa-champions-league-psg-atalanta/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://127.0.0.1:1313/fr/event/ligue-1-psg-lens/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://127.0.0.1:1313/fr/event/ligue-1-toulouse-psg/</loc>
-    <lastmod>2025-08-30T15:05:00-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://127.0.0.1:1313/en/event/ligue-1-toulouse-psg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://127.0.0.1:1313/fr/event/ligue-1-toulouse-psg/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://127.0.0.1:1313/fr/event/ligue-1-psg-angers/</loc>
-    <lastmod>2025-08-22T14:45:00-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://127.0.0.1:1313/en/event/ligue-1-psg-angers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://127.0.0.1:1313/fr/event/ligue-1-psg-angers/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://127.0.0.1:1313/fr/blog/bienvenue-sur-le-site-du-psg-club-montreal/</loc>
-    <lastmod>2023-08-30T12:49:27-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://127.0.0.1:1313/en/blog/welcome-to-psg-club-montreal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://127.0.0.1:1313/fr/blog/bienvenue-sur-le-site-du-psg-club-montreal/"
+                href="http://127.0.0.1:1313/fr/event/uefa-champions-league-psg-atalanta/"
                 />
   </url>
   
   <url>
     <loc>http://127.0.0.1:1313/fr/categories/blog/</loc>
-    <lastmod>2023-08-30T12:49:27-04:00</lastmod>
+    <lastmod>2025-09-15T23:02:27-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -292,8 +394,15 @@
   </url>
   
   <url>
+    <loc>http://127.0.0.1:1313/fr/tags/match/</loc>
+    <lastmod>2025-09-15T23:02:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://127.0.0.1:1313/fr/blog/</loc>
-    <lastmod>2023-08-30T12:49:27-04:00</lastmod>
+    <lastmod>2025-09-15T23:02:27-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -310,7 +419,7 @@
   
   <url>
     <loc>http://127.0.0.1:1313/fr/tags/</loc>
-    <lastmod>2023-08-30T12:49:27-04:00</lastmod>
+    <lastmod>2025-09-15T23:02:27-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -322,6 +431,30 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://127.0.0.1:1313/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/blog/un-brunch-de-la-convivialit%C3%A9-et-la-victoire-face-%C3%A0-lens/</loc>
+    <lastmod>2025-09-15T23:02:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1313/fr/blog/bienvenue-sur-le-site-du-psg-club-montreal/</loc>
+    <lastmod>2023-08-30T12:49:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/blog/welcome-to-psg-club-montreal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/blog/bienvenue-sur-le-site-du-psg-club-montreal/"
                 />
   </url>
   

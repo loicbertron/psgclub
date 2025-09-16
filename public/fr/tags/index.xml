@@ -6,8 +6,15 @@
     <description>Recent content in Tags on PSG Club Montréal</description>
     <generator>Hugo</generator>
     <language>fr-CA</language>
-    <lastBuildDate>Wed, 30 Aug 2023 12:49:27 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 23:02:27 -0400</lastBuildDate>
     <atom:link href="http://127.0.0.1:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Match</title>
+      <link>http://127.0.0.1:1313/fr/tags/match/</link>
+      <pubDate>Mon, 15 Sep 2025 23:02:27 -0400</pubDate>
+      <guid>http://127.0.0.1:1313/fr/tags/match/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Website</title>
       <link>http://127.0.0.1:1313/fr/tags/website/</link>
