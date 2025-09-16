@@ -398,6 +398,16 @@
     <lastmod>2025-09-15T23:02:27-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/tags/match/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/tags/match/"
+                />
   </url>
   
   <url>
@@ -439,6 +449,16 @@
     <lastmod>2025-09-15T23:02:27-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://127.0.0.1:1313/en/blog/a-brunch-good-company-and-the-victory-against-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://127.0.0.1:1313/fr/blog/un-brunch-de-la-convivialit%C3%A9-et-la-victoire-face-%C3%A0-lens/"
+                />
   </url>
   
   <url>

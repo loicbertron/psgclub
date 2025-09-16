@@ -24,6 +24,7 @@ Moment marquant de la matinée : les membres ont eu la chance de prendre des pho
 ### ⚽ Un match maîtrisé par Paris mais trois autres blessures 
 À 11h du matin, l’ambiance est montée d’un cran avec l’entrée des joueurs sur la pelouse du Parc des Princes, retransmise en direct. Le PSG n’a pas tardé à ravir les supporters montréalais grâce à un Bradley Barcola des grands jours. L’attaquant parisien a inscrit un doublé décisif (15ᵉ et 51ᵉ minutes), les deux fois servi par un Vitinha inspiré.
 Dominateurs dans le jeu, les Parisiens ont globalement maîtrisé leur sujet, laissant peu d’opportunités aux Lensois, limités à quelques contres timides. La défense francilienne s’est montrée solide, et le gardien de but Lucas Chevalier a passé une fin d’après-midi relativement tranquille.
+
 Trois joueurs parisiens ont dû quitter leur partenaires dans ce match et ont ainsi été remplacés alors que Khvicha Kvaratskhelia, Lee Kang-In et Lucas Beraldo(sorti sur civière) se sont tour à tour blessés, créant de l'appréhension pour les membres du PSG Club Montréal a quelques jours du premier rendez vous européen contre l’Atalanta Bergame.
 
 ![Le PSG Club Montréal avec la Ligue des Champions](images/blog/DSC09382.jpg)
