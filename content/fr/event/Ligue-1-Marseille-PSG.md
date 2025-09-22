@@ -1,11 +1,11 @@
 ---
 title: Marseille - PSG
-date: 2025-09-21T14:45:00-04:00
+date: 2025-09-22T14:00:00-04:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-09-22T06:45:00.000Z
-featureImage: images/event/Marseille-PSG-2025-09-21-Insta.png
-instagramImage: images/event/Marseille-PSG-2025-09-21-Insta.png
-facebookImage: images/event/Marseille-PSG-2025-09-21-FB.png
+expiryDate: 2025-09-23T06:00:00.000Z
+featureImage: images/event/Marseille-PSG-2025-09-22-Insta.png
+instagramImage: images/event/Marseille-PSG-2025-09-22-Insta.png
+facebookImage: images/event/Marseille-PSG-2025-09-22-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
