@@ -1,11 +1,11 @@
 ---
 title: Monaco - PSG
-date: 2025-11-30T10:00:00-05:00
+date: 2025-11-29T11:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-12-01T03:00:00.000Z
-featureImage: images/event/Monaco-PSG-2025-11-30-Insta.png
-instagramImage: images/event/Monaco-PSG-2025-11-30-Insta.png
-facebookImage: images/event/Monaco-PSG-2025-11-30-FB.png
+expiryDate: 2025-11-30T04:00:00.000Z
+featureImage: images/event/Monaco-PSG-2025-11-29-Insta.png
+instagramImage: images/event/Monaco-PSG-2025-11-29-Insta.png
+facebookImage: images/event/Monaco-PSG-2025-11-29-FB.png
 definitiveDate: true
 categories: Match
 eventType: match

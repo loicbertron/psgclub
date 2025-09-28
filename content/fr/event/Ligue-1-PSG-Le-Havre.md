@@ -1,11 +1,11 @@
 ---
 title: PSG - Le Havre
-date: 2025-11-23T10:00:00-05:00
+date: 2025-11-22T15:05:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-11-24T03:00:00.000Z
-featureImage: images/event/PSG-Le Havre-2025-11-23-Insta.png
-instagramImage: images/event/PSG-Le Havre-2025-11-23-Insta.png
-facebookImage: images/event/PSG-Le Havre-2025-11-23-FB.png
+expiryDate: 2025-11-23T08:05:00.000Z
+featureImage: images/event/PSG-Le Havre-2025-11-22-Insta.png
+instagramImage: images/event/PSG-Le Havre-2025-11-22-Insta.png
+facebookImage: images/event/PSG-Le Havre-2025-11-22-FB.png
 definitiveDate: true
 categories: Match
 eventType: match

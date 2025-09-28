@@ -1,11 +1,11 @@
 ---
 title: PSG - Rennes
-date: 2025-12-07T10:00:00-05:00
+date: 2025-12-06T15:05:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-12-08T03:00:00.000Z
-featureImage: images/event/PSG-Rennes-2025-12-07-Insta.png
-instagramImage: images/event/PSG-Rennes-2025-12-07-Insta.png
-facebookImage: images/event/PSG-Rennes-2025-12-07-FB.png
+expiryDate: 2025-12-07T08:05:00.000Z
+featureImage: images/event/PSG-Rennes-2025-12-06-Insta.png
+instagramImage: images/event/PSG-Rennes-2025-12-06-Insta.png
+facebookImage: images/event/PSG-Rennes-2025-12-06-FB.png
 definitiveDate: true
 categories: Match
 eventType: match

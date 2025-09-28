@@ -1,8 +1,8 @@
 ---
 title: Metz - PSG
-date: 2025-12-14T10:00:00-05:00
+date: 2025-12-14T11:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2025-12-15T03:00:00.000Z
+expiryDate: 2025-12-15T04:00:00.000Z
 featureImage: images/event/Metz-PSG-2025-12-14-Insta.png
 instagramImage: images/event/Metz-PSG-2025-12-14-Insta.png
 facebookImage: images/event/Metz-PSG-2025-12-14-FB.png
