@@ -1,8 +1,8 @@
 ---
 title: PSG - Paris FC
-date: 2026-01-04T11:00:00-05:00
+date: 2026-01-04T14:45:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2026-01-05T04:00:00.000Z
+expiryDate: 2026-01-05T07:45:00.000Z
 featureImage: images/event/PSG-Paris FC-2026-01-04-Insta.png
 instagramImage: images/event/PSG-Paris FC-2026-01-04-Insta.png
 facebookImage: images/event/PSG-Paris FC-2026-01-04-FB.png

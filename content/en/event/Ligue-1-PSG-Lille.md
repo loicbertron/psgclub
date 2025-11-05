@@ -1,11 +1,11 @@
 ---
 title: PSG - Lille
-date: 2026-01-18T11:00:00-05:00
+date: 2026-01-16T15:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2026-01-19T04:00:00.000Z
-featureImage: images/event/PSG-Lille-2026-01-18-Insta.png
-instagramImage: images/event/PSG-Lille-2026-01-18-Insta.png
-facebookImage: images/event/PSG-Lille-2026-01-18-FB.png
+expiryDate: 2026-01-17T08:00:00.000Z
+featureImage: images/event/PSG-Lille-2026-01-16-Insta.png
+instagramImage: images/event/PSG-Lille-2026-01-16-Insta.png
+facebookImage: images/event/PSG-Lille-2026-01-16-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
