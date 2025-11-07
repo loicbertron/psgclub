@@ -1,11 +1,11 @@
 ---
 title: Auxerre - PSG
-date: 2026-01-25T11:00:00-05:00
+date: 2026-01-23T14:00:00-05:00
 publishdate: 2024-01-01T12:00:00.000-04:00
-expiryDate: 2026-01-26T04:00:00.000Z
-featureImage: images/event/Auxerre-PSG-2026-01-25-Insta.png
-instagramImage: images/event/Auxerre-PSG-2026-01-25-Insta.png
-facebookImage: images/event/Auxerre-PSG-2026-01-25-FB.png
+expiryDate: 2026-01-24T07:00:00.000Z
+featureImage: images/event/Auxerre-PSG-2026-01-23-Insta.png
+instagramImage: images/event/Auxerre-PSG-2026-01-23-Insta.png
+facebookImage: images/event/Auxerre-PSG-2026-01-23-FB.png
 definitiveDate: true
 categories: Match
 eventType: match
