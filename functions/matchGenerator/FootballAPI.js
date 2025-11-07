@@ -5,7 +5,7 @@ const Generator = require('./generator')
 const moment = require('moment');
 
 var myHeaders = new Headers();
-myHeaders.append("x-rapidapi-key", process.env.RAPIDAPI_KEY);
+myHeaders.append("x-rapidapi-key", '36a5aeb637msh9f0191ab0f64632p1a4e22jsneeb48d38444a'); //process.env.RAPIDAPI_KEY);
 myHeaders.append("x-rapidapi-host", "api-football-v1.p.rapidapi.com");
 
 var requestOptions = {

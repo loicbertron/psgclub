@@ -6,8 +6,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ultra&display=swap" rel="stylesheet">
 
     <style>
         body {
@@ -21,7 +22,7 @@
             width: 760px;
             height: 100px;
             position: absolute;
-            top: 555px;
+            top: 495px;
             left: 164px;
             float:left;
         }
@@ -41,11 +42,12 @@
             text-align: center;
             height: 100px;
             line-height: 100px;
-            font-family: "Bangers", system-ui;
+            font-family: "Ultra", serif;
             font-optical-sizing: auto;
-            font-weight: normal;
-            font-size: 37px;
+            font-weight: bold;
+            font-size: xx-large;
             font-style: normal;
+            text-transform: uppercase;
         }
         span {
             display: inline-block;
@@ -56,13 +58,11 @@
             width: 760px;
             height: 50px;
             position: absolute;
-            top: 693px;
+            top: 650px;
             left: 164px;
             float:left;
             text-align: center;
-            line-height: 50px;
             font-family: "Antonio", sans-serif;
-            font-optical-sizing: auto;
             font-weight: bold;
             font-size: x-large;
             font-style: normal;
@@ -71,44 +71,72 @@
             width: 760px;
             height: 64px;
             position: absolute;
-            top: 773px;
+            top: 723px;
             left: 164px;
             float:left;
             text-align: center;
             line-height: 64px;
-            font-family: "Antonio", sans-serif;
+            font-family: "Ultra", serif;
             font-optical-sizing: auto;
-            font-weight: bold;
-            font-size: xxx-large;
+            /*font-weight: bold;*/
+            font-size: x-large;
             font-style: normal;
         }
         #location {
             width: 760px;
             height: 64px;
             position: absolute;
-            top: 906px;
+            top: 831px;
             left: 164px;
             float:left;
             text-align: center;
             line-height: 64px;
-            font-family: "Antonio", sans-serif;
+            font-family: "Ultra", serif;
             font-optical-sizing: auto;
-            font-weight: bold;
+            /*font-weight: bold;*/
             font-size: x-large;
             font-style: normal;
         }
+        
+        /* Style for the new SVG text */
+        #teams-svg text {
+            font-family: "Alfa Slab One", serif;
+            font-size: 50px; /* <-- This acts as the *maximum* size */
+            font-weight: 400;
+            text-transform: uppercase;
+            fill: black; /* <-- 'fill' is the 'color' for SVG text */
+        }
+
     </style>
 </head>
 <body>
-<div id="container">
+
+<!--<div id="container">
     <img src="{{{homeLogo}}}">
     <div id="teams">
         <span>{{homeTeam}} vs {{awayTeam}}</span>
     </div>
     <img src="{{{awayLogo}}}">
+</div>-->
+<img src="{{{homeLogo}}}" style="position: absolute; top: 500px; left: 164px; max-width: 120px;">
+<img src="{{{awayLogo}}}" style="position: absolute; top: 500px; left: 796px; max-width: 120px;">
+<svg id="teams-svg" viewBox="0 0 520 60" 
+     style="position: absolute; top: 531px; left: 280px; width: 520px; height: 50px;">
+    
+    <text x="50%" y="50%" dy=".45em" text-anchor="middle" 
+          lengthAdjust="spacingAndGlyphs" textLength="400">
+        {{homeTeam}} - {{awayTeam}}
+    </text>
+
+</svg>
+
+<div id="date">{{date}} - {{time}}
+    <BR/>Maison France Montréal 
+    <BR/>429 Avenue Viger E, Montréal
+
 </div>
-<div id="date">{{date}}</div>
+<!--
 <div id="heure">{{time}}</div>
-<div id="location">Maison France Montréal - 429 Avenue Viger E, Montréal</div>
+<div id="location">Maison France Montréal - 429 Avenue Viger E, Montréal</div> -->
 </body>
 </html>

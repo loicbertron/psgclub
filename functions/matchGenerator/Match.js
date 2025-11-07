@@ -10,8 +10,8 @@ const Match = class {
         this.MontrealDateString = montrealDate.format("dddd D MMMM");
         this.MontrealTimeString = montrealDate.format("HH:mm");
         this.MontrealISO = montrealDate.format(); // This will produce the correct ISO 8601 string with offset
-        this.homeTeam = homeTeam === "Paris Saint Germain" ? "PSG" : homeTeam;
-        this.awayTeam = awayTeam === "Paris Saint Germain" ? "PSG" : awayTeam;
+        this.homeTeam = homeTeam === "Paris Saint Germain" ? "Paris SG" : homeTeam;
+        this.awayTeam = awayTeam === "Paris Saint Germain" ? "Paris SG" : awayTeam;
         this.homeLogo = homeLogo;
         this.awayLogo = awayLogo;
         this.status = status;

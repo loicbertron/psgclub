@@ -64,12 +64,12 @@ const downloadImage = function (url, filepath) {
 }
 
 const getBackgroundImage = function (competition = "Ligue1", network = "instagram") {
-    let templateImg = './Template.png';
+    let templateImg = './Template IG2.png';
     if (competition === "UEFA Champions League") {
-        templateImg = './Template UCL.png'
+        templateImg = './Template UCL2.png'
     }
     if (network === "facebook") {
-        templateImg = './Template FB.png'
+        templateImg = './Template FB2.png'
     }
 
     const image = fs.readFileSync(templateImg);
